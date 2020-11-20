@@ -11,7 +11,7 @@ role: Senior Data Analyst
 # Organizations/Affiliations
 organizations:
 - name: FedEx Services
-  url: "https://www.fedex.com/en-us/service-guide.html"
+  url: "https://www.fedex.com/en-us/home.html"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Driving meaningful improvement by employing data science. Statistically oriented with interest in Machine and Deep Learning. My research interests include sports analytics, sustainability, and welfare economics.
@@ -70,7 +70,6 @@ user_groups:
 - Researchers
 - Visitors
 ---
-
 I am a Senior Data analyst and statistics enthusiast with interests in Machine Learning, Time Series Forecasting, Mixed-Effects Inferential Analysis, and Sports Analytics.
 
 During my career, I have leveraged financial and statistical modeling to obtain business insight with the goal of providing value to my organizations. I enjoy applying statistical and machine learning methods to sports analytics, particularly NFL analytics. Other research interests include: sustainability, economics, and finance.
