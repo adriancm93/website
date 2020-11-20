@@ -1,0 +1,25 @@
+Steps to create a new post (personal):
+
+1- Create a folder with a new post in the following path:
+	C:\Users\adrian-boss\Documents\GitHub\website\content\post
+
+2- inside such folder, create a jupyter notebook file called index
+
+3- In the terminal, change directory to new folder, example (new_post is the name of the fodler I created in step 2):
+	cd C:\Users\adrian-boss\Documents\GitHub\website\content\post\new_post
+
+4- Run the following command:
+	jupyter lab index.ipynb
+
+5- Edit jupyter notebook to create a post
+	Don't add images yet (personal preference)
+	Don't add code yet (personal preference)
+
+6 - Inside the working directory, run the following code in the command prompt:
+	jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
+
+7- Add featured image on the working folder (featured.jpg)
+
+8- Go to index.md to add images and code 
+	Start and end chunks of code with: (```  ```)
+	Insert images stored on working fodler, example: ![png](./plot.png)
