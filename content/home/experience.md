@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "Experience"
+title = "Relevant Experience"
 subtitle = ""
 
 # Date format for experience
@@ -18,27 +18,59 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "Sr, Data analyst"
+  company = "FedEx"
+  company_url = "https://www.fedex.com/en-us/service-guide.html"
+  location = "Tennessee"
+  date_start = "2020-05"
   date_end = ""
   description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+  Responsibilities:
+
+  * Developing and testing a task bot to automate business processes aimed to increase productivity and reduce costs
+
+  * Utilizing a Feed Forward and LSTM Neural Network algorithms to forecast accounts while supporting the Strategic Outlook of FedEx Services IT
+
+  * Improving forecasting accuracy by 8% compared to previous methodology
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Advanced Intern – Data Analysis"
+  company = "FedEx"
+  company_url = "https://www.fedex.com/en-us/service-guide.html"
+  location = "Tennessee"
+  date_start = "2020-01"
+  date_end = "2020-05"
+  description = """
+  Achievements:
+
+  * Built data pipelines to automate processing and analysis utilizing multiple data science and analytical tools such as Dataiku, Alteryx, and Tableau Desktop
+
+  * Implemented and managed a Tableau Server to be utilized by multiple teams within a Finance division to share data and dashboards
+
+  * Applied SQL tuning techniques to increase query speed to help a finance team to improve efficiency
+  """
+
+  [[experience]]
+    title = "Finance Intern – Data Analysis"
+    company = "FedEx"
+    company_url = "https://www.fedex.com/en-us/service-guide.html"
+    location = "Tennessee"
+    date_start = "2019-06"
+    date_end = "2019-08"
+    description = """
+    Achievements:
+
+    * Programmed statistical models to evaluate the effects of the FedEx  Technology Incentive  Program  (FTIP) on revenue growth by analyzing over $30 million in cash awards
+
+    * Collaborated with a team of six to prepare a presentation for a Senior VP and sales team, which featured my findings on FTIP and recommendations on how to increase the return-over-expenditure ratio
+
+    """
+
+
+
+
+
+
 
 +++
