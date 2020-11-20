@@ -29,6 +29,7 @@ Image(url="https://github.com/adriancm93/website/blob/master/content/post/2015-0
 
 
 ![png](./index_1_0.png)
+
 ![png](./plot.png)
 
 
