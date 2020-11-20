@@ -5,7 +5,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "Relevant Experience"
+title = "Relevant
+Experience"
 subtitle = ""
 
 # Date format for experience
@@ -22,7 +23,7 @@ date_format = "Jan 2006"
   company = "FedEx"
   company_url = "https://www.fedex.com/en-us/service-guide.html"
   location = "Tennessee"
-  date_start = "2020-05"
+  date_start = "2020-05-01"
   date_end = ""
   description = """
   Responsibilities:
@@ -39,8 +40,8 @@ date_format = "Jan 2006"
   company = "FedEx"
   company_url = "https://www.fedex.com/en-us/service-guide.html"
   location = "Tennessee"
-  date_start = "2020-01"
-  date_end = "2020-05"
+  date_start = "2020-01-01"
+  date_end = "2020-05-01"
   description = """
   Achievements:
 
@@ -51,26 +52,19 @@ date_format = "Jan 2006"
   * Applied SQL tuning techniques to increase query speed to help a finance team to improve efficiency
   """
 
-  [[experience]]
-    title = "Finance Intern – Data Analysis"
-    company = "FedEx"
-    company_url = "https://www.fedex.com/en-us/service-guide.html"
-    location = "Tennessee"
-    date_start = "2019-06"
-    date_end = "2019-08"
-    description = """
-    Achievements:
+[[experience]]
+  title = "Finance Intern – Data Analysis"
+  company = "FedEx"
+  company_url = "https://www.fedex.com/en-us/service-guide.html"
+  location = "Tennessee"
+  date_start = "2019-06-01"
+  date_end = "2019-08-01"
+  description = """
+  Achievements:
 
-    * Programmed statistical models to evaluate the effects of the FedEx  Technology Incentive  Program  (FTIP) on revenue growth by analyzing over $30 million in cash awards
+  * Programmed statistical models to evaluate the effects of the FedEx  Technology Incentive  Program  (FTIP) on revenue growth by analyzing over $30 million in cash awards
 
-    * Collaborated with a team of six to prepare a presentation for a Senior VP and sales team, which featured my findings on FTIP and recommendations on how to increase the return-over-expenditure ratio
+  * Collaborated with a team of six to prepare a presentation for a Senior VP and sales team, which featured my findings on FTIP and recommendations on how to increase the return-over-expenditure ratio
 
-    """
-
-
-
-
-
-
-
+  """
 +++
