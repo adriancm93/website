@@ -30,9 +30,15 @@ Write the Article here.
 
 
 
-```python
+```
+library(dplyr)
 print("Welcome to Academic!")
 ```
+
+```{r}
+print()
+```
+
 
     Welcome to Academic!
 
