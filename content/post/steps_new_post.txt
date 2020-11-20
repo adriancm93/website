@@ -15,6 +15,18 @@ Steps to create a new post (personal):
 	Don't add images yet (personal preference)
 	Don't add code yet (personal preference)
 
+Edit your post metadata
+The first cell of your Jupter notebook will contain your post metadata (front matter).
+
+In Jupter, choose Markdown as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:
+
+---
+title: My post's title
+date: 2019-09-01
+
+# Put any other Academic metadata here...
+---
+
 6 - Inside the working directory, run the following code in the command prompt:
 	jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
 
