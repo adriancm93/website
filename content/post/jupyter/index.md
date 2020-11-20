@@ -13,20 +13,15 @@ projects: []
 subtitle: Learn how to blog in Academic using Jupyter notebooks
 summary: Learn how to blog in Academic using Jupyter notebooks
 tags: []
-title: Testing Display Jupyter Notebooks with Academic - Change
+title: New Title
 ---
 
 ```python
 from IPython.core.display import Image
 Image('https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png')
 ```
-
-```python
-from IPython.core.display import Image
-
-Image(url="https://github.com/adriancm93/website/blob/master/content/post/2015-07-23-r-rmarkdown/index_files/figure-html/main_plot-1.png?raw=true")
-```
-
+## subtitle here
+Write the Article here.
 
 ![png](./index_1_0.png)
 
