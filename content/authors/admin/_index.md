@@ -1,37 +1,35 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Adrian Cadena-Medina
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Senior Data Analyst
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: FedEx Services
+  url: "https://www.fedex.com/en-us/service-guide.html"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Driving meaningful improvement by employing data science. Statistically oriented with interest in Machine and Deep Learning. My research interests include sports analytics, sustainability, and welfare economics.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Sports Analytics
+- Machine Learning
+- Statistical Analysis
+- Deep Learning
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: M.S., Business Analytics - Data Science Track
+    institution: The University of Texas at Dallas 
+    year: 2020
+  - course: B.B.A., Double major in Finance and Economics
+    institution: The University of Texas Rio Grande Valley 
+    year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -40,16 +38,20 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: /#contact
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/adrian_stats
+- icon: medium
+  icon_pack: fab
+  link: https://adriancadena.medium.com/
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/adriancm93
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/adriancadenam/
+  
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -57,7 +59,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "adrian.cadena@utdallas.edu"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -69,6 +71,6 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a Senior Data analyst and statistics enthusiast with interests in Machine Learning, Time Series Forecasting, Mixed-Effects Inferential Analysis, and Sports Analytics. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+During my career, I have leveraged financial and statistical modeling to obtain business insight with the goal of providing value to my organizations. I enjoy applying statistical and machine learning methods to sports analytics, particularly NFL analytics. Other research interests include: sustainability, economics, and finance.
