@@ -25,7 +25,7 @@ subtitle = ""
   name = "Python"
 
 [[feature]]
-    icon = "sql"
+    icon = "database"
     icon_pack = "fab"
     name = "SQL"
 
