@@ -20,7 +20,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Sr, Data analyst"
   company = "FedEx"
-  company_url = ""
+  company_url = "https://www.fedex.com/en-us/home.html"
   location = "Tennessee"
   date_start = "2020-05-01"
   description = """
@@ -30,4 +30,34 @@ date_format = "Jan 2006"
   * Utilizing a Feed Forward and LSTM Neural Network algorithms to forecast accounts while supporting the Strategic Outlook of FedEx Services IT
   * Improving forecasting accuracy by 8% compared to previous methodology
 """
+
+[[experience]]
+  title = "Advanced Intern – Data Analysis"
+  company = "FedEx"
+  company_url = "https://www.fedex.com/en-us/home.html"
+  location = "Tennessee"
+  date_start = "2020-01-01"
+  date_end = "2020-05-01"
+  description = """
+  Achievements:
+
+  * Built data pipelines to automate processing and analysis utilizing multiple data science and analytical tools such as Dataiku, Alteryx, and Tableau Desktop
+  * Implemented and managed a Tableau Server to be utilized by multiple teams within a Finance division to share data and dashboards
+  * Applied SQL tuning techniques to increase query speed to help a finance team to improve efficiency
+"""
+
+[[experience]]
+  title = "Finance Intern – Data Analysis"
+  company = "FedEx"
+  company_url = "https://www.fedex.com/en-us/home.html"
+  location = "Tennessee"
+  date_start = "2019-06-01"
+  date_end = "2019-08-01"
+  description = """
+  Achievements:
+
+  * Programmed statistical models to evaluate the effects of the FedEx  Technology Incentive  Program  (FTIP) on revenue growth by analyzing over $30 million in cash awards
+  * Collaborated with a team of six to prepare a presentation for a Senior VP and sales team, which featured my findings on FTIP and recommendations on how to increase the return-over-expenditure ratio
+"""
+
 +++
