@@ -26,21 +26,21 @@ subtitle = ""
 
 [[feature]]
     icon = "database"
-    icon_pack = "fab"
+    icon_pack = "fas"
     name = "SQL"
 
 [[feature]]
-  icon = "chart-network"
-  icon_pack = "fab"
+  icon = "robot"
+  icon_pack = "fas"
   name = "Machine Learning"
 
 [[feature]]
-  icon = "analytics"
-  icon_pack = "fab"
+  icon = "chart-line"
+  icon_pack = "fas"
   name = "Data Analytics"
 
 [[feature]]
-  icon = "chart-scatter"
+  icon = "uncharted"
   icon_pack = "fab"
   name = "Statistics"
 
