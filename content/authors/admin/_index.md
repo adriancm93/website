@@ -25,10 +25,10 @@ interests:
 education:
   courses:
   - course: M.S., Business Analytics - Data Science Track
-    institution: The University of Texas at Dallas 
+    institution: The University of Texas at Dallas
     year: 2020
   - course: B.B.A., Double major in Finance and Economics
-    institution: The University of Texas Rio Grande Valley 
+    institution: The University of Texas Rio Grande Valley
     year: 2015
 
 # Social/Academic Networking
@@ -51,7 +51,7 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/adriancadenam/
-  
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -71,6 +71,6 @@ user_groups:
 - Visitors
 ---
 
-I am a Senior Data analyst and statistics enthusiast with interests in Machine Learning, Time Series Forecasting, Mixed-Effects Inferential Analysis, and Sports Analytics. 
+I am a Senior Data analyst and statistics enthusiast with interests in Machine Learning, Time Series Forecasting, Mixed-Effects Inferential Analysis, and Sports Analytics.
 
 During my career, I have leveraged financial and statistical modeling to obtain business insight with the goal of providing value to my organizations. I enjoy applying statistical and machine learning methods to sports analytics, particularly NFL analytics. Other research interests include: sustainability, economics, and finance.
