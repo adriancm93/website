@@ -37,11 +37,11 @@ subtitle = ""
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "Data Analytics"
+  name = "Data Analytics/Statistics"
 
 [[feature]]
-  icon = "uncharted"
-  icon_pack = "fab"
+  icon = "chart-area"
+  icon_pack = "fas"
   name = "Statistics"
 
 
