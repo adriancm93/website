@@ -23,11 +23,11 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Tennessee"
   date_start = "2020-05-01"
-  date_end = ""
-  description = |-
+  description = """
   Responsibilities:
 
   * Developing and testing a task bot to automate business processes aimed to increase productivity and reduce costs
   * Utilizing a Feed Forward and LSTM Neural Network algorithms to forecast accounts while supporting the Strategic Outlook of FedEx Services IT
   * Improving forecasting accuracy by 8% compared to previous methodology
+"""
 +++
