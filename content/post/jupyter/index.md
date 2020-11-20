@@ -22,7 +22,7 @@ Image('https://www.python.org/static/community_logos/python-logo-master-v3-TM-fl
 ```
 
 ```python
-from IPython.display import Image
+from IPython.core.display import Image
 
 Image(url="https://github.com/adriancm93/website/blob/master/content/post/2015-07-23-r-rmarkdown/index_files/figure-html/main_plot-1.png?raw=true")
 ```
