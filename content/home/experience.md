@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "Relevant Experience"
+title = "Recent Professional Experience"
 subtitle = ""
 
 # Date format for experience
@@ -43,7 +43,6 @@ date_format = "Jan 2006"
 
   * Built data pipelines to automate processing and analysis utilizing multiple data science and analytical tools such as Dataiku, Alteryx, and Tableau Desktop
   * Implemented and managed a Tableau Server to be utilized by multiple teams within a Finance division to share data and dashboards
-  * Applied SQL tuning techniques to increase query speed to help a finance team to improve efficiency
 """
 
 [[experience]]
@@ -55,9 +54,6 @@ date_format = "Jan 2006"
   date_end = "2019-08-01"
   description = """
   Achievements:
-
-  * Programmed statistical models to evaluate the effects of the FedEx  Technology Incentive  Program  (FTIP) on revenue growth by analyzing over $30 million in cash awards
-  * Collaborated with a team of six to prepare a presentation for a Senior VP and sales team, which featured my findings on FTIP and recommendations on how to increase the return-over-expenditure ratio
+  * Programmed statistical models to evaluate the effects of the FedEx  Technology Incentive  Program (FTIP) on revenue growth by analyzing over $30 million in cash awards
 """
-
 +++

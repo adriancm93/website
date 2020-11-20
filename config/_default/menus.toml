@@ -8,9 +8,6 @@
   url = "#about"
   weight = 10
 
-
-
-
 [[main]]
   name = "Posts"
   url = "#posts"
@@ -34,6 +31,6 @@
 #Link to a PDF of your resume/CV from the menu.
 #To enable, copy your resume/CV to `static/media/cv.pdf` and uncomment the lines below.
 [[main]]
-   name = "CV"
+   name = "Resume"
    url = "media/cv.pdf"
    weight = 70
