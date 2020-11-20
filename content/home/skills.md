@@ -31,25 +31,19 @@ subtitle = ""
 
 [[feature]]
   icon = "chart-network"
-  icon_pack = "fas"
+  icon_pack = "fab"
   name = "Machine Learning"
 
 [[feature]]
   icon = "analytics"
-  icon_pack = "fas"
+  icon_pack = "fab"
   name = "Data Analytics"
 
 [[feature]]
   icon = "chart-scatter"
-  icon_pack = "fas"
+  icon_pack = "fab"
   name = "Statistics"
 
-
-[[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
 
 # Uncomment to use emoji icons.
 # [[feature]]
