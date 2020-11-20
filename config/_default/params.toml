@@ -93,7 +93,7 @@ phone = "(956) 331 3726"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "-", city = "Collierville", region = "TN", postcode = "38017", country = "United States", country_code = "US"}
+address = {city = "Collierville", region = "TN", postcode = "38017", country = "United States", country_code = "US"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
@@ -112,9 +112,8 @@ appointment_url = "https://calendly.com/adriancadenam93"
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/adrian_stats"},
-  {icon = "envelope", icon_pack = "fab", name = "e-mail", link = "adrian.cadena@utdallas.edu"},
-  {icon = "mobile", icon_pack = "fab", name = "Call me", link = "(956) 331-3726"},
+  {icon = "twitter", icon_pack = "fab",  link = "https://twitter.com/adrian_stats"},
+  {icon = "linkedin-in", icon_pack = "fab", link = "https://www.linkedin.com/in/adriancadenam/"},
   ]
 
 ############################
