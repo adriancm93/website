@@ -26,9 +26,9 @@ date_format = "Jan 2006"
   description = """
   Responsibilities:
 
-  * Developing and testing a task bot to automate business processes aimed to increase productivity and reduce costs
-  * Utilizing a Feed Forward and LSTM Neural Network algorithms to forecast accounts while supporting the Strategic Outlook of FedEx Services IT
-  * Improving forecasting accuracy by 8% compared to previous methodology
+  * Developing and testing bots to automate business processes anticipated to increase productivity and reduce costs
+  * Utilizing Feed Forward and LSTM Neural Network algorithms to forecast accounts while supporting the company’s Strategic Outlook for the next three fiscal years. Insight was obtained and presented to a leadership team
+  * Improved forecasting accuracy for multiple accounts by 8% compared to the previous methodology
 """
 
 [[experience]]
@@ -41,8 +41,8 @@ date_format = "Jan 2006"
   description = """
   Achievements:
 
-  * Built data pipelines to automate processing and analysis utilizing multiple data science and analytical tools such as Dataiku, Alteryx, and Tableau Desktop
-  * Implemented and managed a Tableau Server to be utilized by multiple teams within a Finance division to share data and dashboards
+  * Built data pipelines to automate processing and analysis utilizing various tools, which lead to time savings of 5 hours per month for the analyst leading our forecasting efforts
+  * Implemented, managed, and coordinated a Tableau Server with 28 members to be utilized by multiple teams within a Finance division
 """
 
 [[experience]]
@@ -54,6 +54,6 @@ date_format = "Jan 2006"
   date_end = "2019-08-01"
   description = """
   Achievements:
-  * Programmed statistical models to evaluate the effects of the FedEx  Technology Incentive  Program (FTIP) on revenue growth by analyzing over $30 million in cash awards
+  * Programmed statistical models to evaluate the effects of the FedEx Technology Incentive Program (FTIP) on revenue growth by analyzing over $30 million in cash awards
 """
 +++

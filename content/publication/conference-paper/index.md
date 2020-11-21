@@ -18,10 +18,10 @@ publication_types: ["0"]
 publication: Open Source Football
 publication_short: In *Open source Football*
 
-abstract: Michael Lopez posted not long ago a great article explaining how Generalized Additive Models (GAMs) are a good way to measure non-linear effects of explanatory variables x on response variable y. Lately, I’ve been playing around with linear and logistic mixed-effects models, so I thought about combining these with GAMs to estimate the probability of completion per Quarterback while accounting for non-linearities, especially on air yards.
+abstract: Michael Lopez posted a great article not long ago explaining how Generalized Additive Models (GAMs) are an excellent way to measure the non-linear effects of explanatory variables x on response variable y. Lately, I’ve been playing around with linear and logistic mixed-effects models, so I thought about combining these with GAMs to estimate the probability of completion per Quarterback while accounting for non-linearities, especially on air yards.
 
 # Summary. An optional shortened abstract.
-summary: Case study on how to leverage Generalized Additive Mixed Models (GAMM) to estimate the individual probability of completion per Quarterback as a random effect.
+summary: Case study on leveraging Generalized Additive Mixed Models (GAMM) to estimate the individual probability of completion per Quarterback as a random effect.
 
 tags:
 - Source Themes
