@@ -1,7 +1,7 @@
 ---
 title: Test Title
 date: 2019-09-01
-
+categories: Python
 # Let's try it out
 ---
 
