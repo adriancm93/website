@@ -70,6 +70,6 @@ user_groups:
 - Researchers
 - Visitors
 ---
-I am a Senior Data analyst and statistics enthusiast with interests in Machine Learning, Time Series Forecasting, Mixed-Effects Inferential Analysis, and Sports Analytics.
+I am a Senior Data analyst and statistics enthusiast interested in Machine Learning, Time Series Forecasting, Mixed-Effects Inferential Analysis, and Sports Analytics.
 
-During my career, I have leveraged financial and statistical modeling to obtain business insight with the goal of providing value to my organizations. I enjoy applying statistical and machine learning methods to sports analytics, particularly NFL analytics. Other research interests include: sustainability, economics, and finance.
+I have leveraged financial and statistical modeling to obtain business insights to provide value to my organizations during my career. I enjoy applying statistical and machine learning methods to sports analytics, particularly NFL analytics. Other research interests include sustainability, economics, and finance.
