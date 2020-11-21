@@ -1,14 +1,16 @@
 ---
-title: External Project
-summary: An example of linking directly to an external project website using `external_link`.
+title: Estimate Completion Probability and Completion Percentage Over Expectation (CPOE) - NFL Analytics
+summary: Stochastic Gradient Boosting to predict pass outcomes and find completion probability. NFL Analytics..
 tags:
-- Demo
-date: "2016-04-27T00:00:00Z"
+- Python
+- NFL
+- CPOE
+date: "2020-11-21T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: http://example.org
+external_link: https://github.com/adriancm93/CPOE/blob/main/cpoe_model.ipynb
 
 image:
-  caption: Photo by Toa Heftiba on Unsplash
+  caption: ROC Curve for Out-of-sample Predictions
   focal_point: Smart
 ---
