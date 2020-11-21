@@ -14,17 +14,19 @@ image:
   caption: ROC Curve for Out-of-sample Predictions
   focal_point: Smart
 
-  links:
-  - icon: github
-    icon_pack: fab
-    name: View Project
-    url: https://github.com/adriancm93/CPOE/blob/main/cpoe_model.ipynb
 
 links:
+- icon: github
+  icon_pack: fab
+  name: View Project
+  url: https://github.com/adriancm93/CPOE/blob/main/cpoe_model.ipynb
+
 - icon: twitter
   icon_pack: fab
   name: Follow
   url: https://twitter.com/adrian_stats
+
+
 
 
 # Slides (optional).
