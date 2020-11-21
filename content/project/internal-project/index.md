@@ -1,5 +1,5 @@
 ---
-title: Estimate Completion Probability and Completion Percentage Over Expectation (CPOE) - NFL Analytics
+title: Completion Percentage Over Expectation (CPOE) - NFL
 summary: Stochastic Gradient Boosting to predict pass outcomes and find completion probability. NFL Analytics..
 tags:
 - Python
@@ -14,15 +14,18 @@ image:
   caption: ROC Curve for Out-of-sample Predictions
   focal_point: Smart
 
+  links:
+  - icon: github
+    icon_pack: fab
+    name: View Project
+    url: https://github.com/adriancm93/CPOE/blob/main/cpoe_model.ipynb
+
 links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
-#url_code: ""
-#url_pdf: ""
-#url_slides: ""
-#url_video: ""
+  url: https://twitter.com/adrian_stats
+
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
