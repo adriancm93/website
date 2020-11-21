@@ -12,10 +12,10 @@ doi: ""
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["0"]
 
 # Publication name and optional abbreviated publication name.
-publication: In opensourcefootball.com
+publication: Open Source Football
 publication_short: In *Open source Football*
 
 abstract: Michael Lopez posted not long ago a great article explaining how Generalized Additive Models (GAMs) are a good way to measure non-linear effects of explanatory variables x on response variable y. Lately, I’ve been playing around with linear and logistic mixed-effects models, so I thought about combining these with GAMs to estimate the probability of completion per Quarterback while accounting for non-linearities, especially on air yards.
@@ -28,16 +28,8 @@ tags:
 featured: true
 
 links:
-- name: Custom Link
+- name: Read Publication Here
   url: https://www.opensourcefootball.com/posts/2020-08-28-expected-completion-using-logistic-generalized-additive-mixed-models/
-url_pdf: "#"
-url_code: '#'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -59,15 +51,4 @@ image:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
 ---
-
-{{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /alert %}}
-
-{{% alert note %}}
-Click the *Slides* button above to demo Academic's Markdown slides feature.
-{{% /alert %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
