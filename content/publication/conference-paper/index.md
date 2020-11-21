@@ -1,13 +1,12 @@
 ---
-title: "An example conference paper"
+title: "Individual Expected Completion using Logistic Generalized Additive Mixed Models"
 authors:
 - admin
-- Robert Ford
-date: "2013-07-01T00:00:00Z"
+date: "2020-08-026T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+#publishDate: "2017-01-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -16,13 +15,13 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Source Themes Conference*
-publication_short: In *STC*
+publication: *https://www.opensourcefootball.com/*
+publication_short: In *Open source Football*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Michael Lopez posted not long ago a great article explaining how Generalized Additive Models (GAMs) are a good way to measure non-linear effects of explanatory variables x on response variable y. Lately, I’ve been playing around with linear and logistic mixed-effects models, so I thought about combining these with GAMs to estimate the probability of completion per Quarterback while accounting for non-linearities, especially on air yards.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Case study on how to leverage Generalized Additive Mixed Models (GAMM) to estimate the individual probability of completion per Quarterback as a random effect.
 
 tags:
 - Source Themes
@@ -30,8 +29,8 @@ featured: true
 
 links:
 - name: Custom Link
-  url: http://example.org
-url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
+  url: https://www.opensourcefootball.com/posts/2020-08-28-expected-completion-using-logistic-generalized-additive-mixed-models/
+url_pdf: "#"
 url_code: '#'
 url_dataset: '#'
 url_poster: '#'
@@ -41,9 +40,9 @@ url_source: '#'
 url_video: '#'
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  #caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
   focal_point: ""
   preview_only: false
 
@@ -52,8 +51,8 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- internal-project
+#projects:
+#- internal-project
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -72,4 +71,3 @@ Click the *Slides* button above to demo Academic's Markdown slides feature.
 {{% /alert %}}
 
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
-
