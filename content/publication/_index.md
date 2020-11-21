@@ -1,5 +1,6 @@
 ---
 featured: true
+featured = true
 
 title: "Individual Expected Completion using Logistic Generalized Additive Mixed Models"
 authors:
