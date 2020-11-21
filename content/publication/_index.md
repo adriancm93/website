@@ -17,6 +17,10 @@ abstract: Michael Lopez posted not long ago a great article explaining how Gener
 # Summary. An optional shortened abstract.
 summary: Case study on how to leverage Generalized Additive Mixed Models (GAMM) to estimate the individual probability of completion per Quarterback as a random effect.
 
+tags:
+- Source Themes
+featured: true
+
 # links:
 # - name: ""
 #   url: ""
