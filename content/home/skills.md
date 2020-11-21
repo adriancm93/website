@@ -44,8 +44,24 @@ subtitle = ""
   icon_pack = "fas"
   name = "Statistics"
 
-  [[feature]]
-    name = "Tools: Git, Alteryx, Dataiku, Oracle, Tableau, MS Azure, Excel, Database Management"
+[[feature]]
+  name = "Git"
+
+[[feature]]
+  name = "Alteryx"
+
+[[feature]]
+  name = "Dataiku"
+
+[[feature]]
+  name = " Oracle"
+
+[[feature]]
+  name = " MS Azure"
+
+[[feature]]
+  name = " Oracle"
+
 
 # Uncomment to use emoji icons.
 # [[feature]]
