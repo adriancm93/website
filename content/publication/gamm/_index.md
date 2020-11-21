@@ -7,7 +7,7 @@ author_notes:
 date: "2020-08-026T00:00:00Z"
 doi: ""
 
-publication_types: ["0"]
+publication_types: ["1"]
 
 publication: "https://www.opensourcefootball.com/"
 publication_short: "Open source Football"

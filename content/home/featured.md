@@ -25,11 +25,11 @@ subtitle = ""
   link_to_archive = false
 
   # Filter posts by a taxonomy term.
-  [content.filters]
-    tag = ""
-    category = ""
-    publication_type = ""
-    author = ""
+  #[content.filters]
+  #  tag = ""
+  #  category = ""
+  #  publication_type = ""
+  #  author = ""
 
 [design]
   # Toggle between the various page layout types.
