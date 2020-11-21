@@ -1,6 +1,4 @@
 ---
-featured: true
-
 title: "Individual Expected Completion using Logistic Generalized Additive Mixed Models"
 authors:
 - admin
@@ -9,7 +7,7 @@ author_notes:
 date: "2020-08-026T00:00:00Z"
 doi: ""
 
-publication_types: ["1"]
+publication_types: ["0"]
 
 publication: "https://www.opensourcefootball.com/"
 publication_short: "Open source Football"
@@ -19,8 +17,25 @@ abstract: Michael Lopez posted not long ago a great article explaining how Gener
 # Summary. An optional shortened abstract.
 summary: Case study on how to leverage Generalized Additive Mixed Models (GAMM) to estimate the individual probability of completion per Quarterback as a random effect.
 
+tags:
+- Source Themes
+featured: false
+
 # links:
 # - name: ""
 #   url: ""
 url_project: https://www.opensourcefootball.com/posts/2020-08-28-expected-completion-using-logistic-generalized-additive-mixed-models/
+
+
+links:
+- name: Website
+  url: https://www.opensourcefootball.com/posts/2020-08-28-expected-completion-using-logistic-generalized-additive-mixed-models/
+slides: example
+
 ---
+
+{{% alert note %}}
+Click the *Slides* button above to demo Academic's Markdown slides feature.
+{{% /alert %}}
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
