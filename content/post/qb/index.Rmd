@@ -1,12 +1,12 @@
 ---
 title: 'Measuring Quarterback’s value in passing efficiency change '
 author: "Adrian Cadena"
-date: '2020-10-23T21:13:14-05:00'
+date: "11-22-2020"
 categories: R
 tags:
-- R Markdown
-- plot
-- regression
+- R
+- Mixed-Effects
+- Bootstrapping
 ---
 
 ```{r setup, include=FALSE}
