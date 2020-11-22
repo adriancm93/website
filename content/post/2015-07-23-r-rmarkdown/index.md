@@ -1,0 +1,32 @@
+---
+title: 'Measuring Quarterback’s value in passing efficiency change '
+author: "Adrian Cadena"
+date: '2020-10-23T21:13:14-05:00'
+categories: R
+tags:
+- R Markdown
+- plot
+- regression
+---
+
+# Description
+
+Revisiting my project evaluating QB impact.
+
+# Plotting
+
+```{r}
+library(ggplot2)
+qb <- data.frame(coef = readRDS('passer1.rds'),effect='QB')
+team <- data.frame(coef = readRDS('team1.rds'),effect='Team')
+coach <- data.frame(coef = readRDS('poscoach1.rds'),effect='Coach')
+defteam <- data.frame(coef = readRDS('defteam1.rds'),effect='DefTeam')
+defcoach <- data.frame(coef = readRDS('defcoach1.rds'),effect='DefCoach')
+
+plot2 <- rbind(qb,team,coach,defteam,defcoach)
+
+ggplot(plot2,aes(x=coef,fill=effect))+
+  geom_density(alpha=.4)+
+  theme_bw()+
+  labs(x='Coefficient', y='Density')
+```
