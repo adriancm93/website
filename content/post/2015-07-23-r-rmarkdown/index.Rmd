@@ -11,65 +11,23 @@ tags:
 
 # Description
 
-Mixed-Effects Modeling, bootstrapping, and Cholesky factorization. Open-source and Tutorial. Original Twitter post [here](https://twitter.com/adrian_stats/status/1291098587074646017?s=20).
+Revisiting my project evaluating QB impact.
 
-# Example of Code
-This is the introduction and will write code in chunks.
+# Plotting
 
 ```{r}
-print("Hi 2")
-```
-
-
-```{r main_plot, echo=FALSE, message=FALSE, warning=FALSE}
-library(dplyr)
 library(ggplot2)
-library(ggthemes)
-final_transposed <- readRDS("C:/Users/adrian-boss/Documents/final_transposed3.RDS")
-coach <- final_transposed %>% select(pos_coach..Intercept.) %>% mutate(Variable='Head Coach') %>% select(intercept = pos_coach..Intercept.,Variable)
-qb <- final_transposed %>% select(passer_player_id..Intercept.) %>% mutate(Variable='Quarterback') %>% select(intercept = passer_player_id..Intercept.,Variable)
-#def_coach <- final_transposed %>% select(def_coach..Intercept.) %>% mutate(Variable='Opposing Head Coach')%>% select(intercept =def_coach..Intercept.,Variable)
-team <- final_transposed %>% select(team..Intercept.) %>% mutate(Variable='Team (Proxy for Offensive Supporting Cast)')%>% select(intercept = team..Intercept.,Variable)
+qb <- data.frame(coef = readRDS('passer1.rds'),effect='QB')
+team <- data.frame(coef = readRDS('team1.rds'),effect='Team')
+coach <- data.frame(coef = readRDS('poscoach1.rds'),effect='Coach')
+defteam <- data.frame(coef = readRDS('defteam1.rds'),effect='DefTeam')
+defcoach <- data.frame(coef = readRDS('defcoach1.rds'),effect='DefCoach')
 
-plot <- rbind(coach,qb,team)
+plot2 <- rbind(qb,team,coach,defteam,defcoach)
 
-plot$Variable <- factor(plot$Variable, levels = c('Head Coach','Team (Proxy for Offensive Supporting Cast)','Quarterback'))
-
-ggplot(plot,aes(x=intercept, fill=Variable))+
-  geom_density(alpha=.4,size=.15)+
-  theme_bw()+
-  scale_fill_manual(values=c("#4DAF4A","#FF7F00","#984EA3"))+
-  labs(x='Absolute Impact on Passing Offense Efficiency (EPA) | Further to the right means greater impact (positive or negative)', y='Density',
-       title = "Quarterback-Ability Matters More Than Supporting Offensive Talent and Head Coach Competence",
-       subtitle = 'When predicting passing efficiency, quarterback ability matters the most, followed by offensive personnel',
-       caption = "Data and EPA models: nflfastR | Seasons 2006 - 2019 | Win Probability 20%-80% | Quarters 1-4 | Passing Plays Only"
-  )+
-  theme(text = element_text(),
-        plot.title = element_text(size = 11, family = "Trebuchet MS",color = "grey20",hjust = 0.5),
-        plot.subtitle = element_text(size = 9, family = "Trebuchet MS",color = "grey20",hjust = 0.5),
-        axis.title = element_text(size = 8, family = "Trebuchet MS",color = "grey20"),
-        axis.text = element_text(size = 8, family = "Trebuchet MS",color = "grey20"),
-        legend.text = element_text(size = 9, family = "Trebuchet MS",color = "grey20"),
-        legend.title = element_blank(),
-        legend.position="top",
-        legend.key.size =unit(.4,"line"),
-        panel.grid = element_line(size=.11),
-        plot.caption = element_text(size=8, family = "Trebuchet MS",color = "grey20",hjust = 0),
-        plot.caption.position = "panel",
-  )  +
-  annotate(geom = "label", x = .001, y = 135, hjust = "left",fill="white",vjust = 1,
-           label = "It is hard for a HC to have passing game success
-without an elite QB or a good QB + supporting cast combination",
-           size=3,
-           family = "Trebuchet MS",
-           color = "grey20")  + 
-  annotate(
-    geom = "curve", x = .11, y = 80,xend = .095, yend = 16,
-    curvature = -.2, size= unit(.12, "mm"),arrow = arrow(length = unit(1.2, "mm")),
-  )+
-  annotate(geom = "label", x = .078, y = 90, hjust = "left",size=3,family = "Trebuchet MS",color = "grey20",fill="white",vjust = 1,
-           label = 'Quarterback ability has the biggest 
-impact, variance, and upside')
-
-ggsave('passing_factors.png', dpi=600, width = 20, height = 14, units = "cm")
+ggplot(plot2,aes(x=coef,fill=effect))+
+  geom_density(alpha=.4)+
+  theme_bw()+ 
+  labs(x='Coefficient', y='Density')
 ```
+

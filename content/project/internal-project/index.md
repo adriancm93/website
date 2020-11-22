@@ -26,9 +26,6 @@ links:
   name: Follow
   url: https://twitter.com/adrian_stats
 
-
-
-
 # Slides (optional).
 #   Associate this project with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
