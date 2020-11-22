@@ -1,40 +1,17 @@
 ---
 title: 'Measuring Quarterback’s value in passing efficiency change '
 author: "Adrian Cadena"
-date: '2020-11-22T21:13:14-05:00'
-output:
-  html_document:
-    toc: yes
-    toc_depth: '3'
-    df_print: paged
-  distill::distill_article:
-    self_contained: no
-    toc: yes
-    toc_depth: 3
+date: '2020-10-23T21:13:14-05:00'
 categories: R
-description: |
-  Revisiting my QB effect analysis.
-repository_url: https://github.com/adriancm93/mixed_effects_bootstrapping
 tags:
-- R
-- Mixed-Effects
-- Bootstrapping
-- NFL
+- R Markdown
+- plot
+- regression
 ---
 
-
-
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(
-  echo = TRUE, 
-  message = FALSE, 
-  warning = FALSE, 
-  dpi = 700, 
-  tidy = 'styler',
-  fig.width=7
-  )
+knitr::opts_chunk$set(dpi=1000,fig.width=7)
 ```
-
 
 # Description
 
