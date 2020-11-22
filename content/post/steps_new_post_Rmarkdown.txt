@@ -1,0 +1,8 @@
+- Create Markdown on folder (use prev post as template - don't add title)
+- knit to html
+- Go to html file and add this on line 1 :
+
+
+---
+title: "Title name"
+---
