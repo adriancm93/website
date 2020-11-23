@@ -6,13 +6,13 @@ output:
   html_document:
     self_contained: false
     toc: true
-    toc_depth: '3'
+    toc_depth: 3
     df_print: paged
 
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
-  echo = FALSE, 
+  echo = TRUE, 
   message = FALSE, 
   warning = FALSE, 
   dpi = 300, 
@@ -111,40 +111,27 @@ You can print **tables** and **plots**:
 
 **Table**
 
-```{r}
-library(ggplot2)
-library(dplyr)
-qb <- data.frame(coef = readRDS('passer1.rds'),effect='QB')
-team <- data.frame(coef = readRDS('team1.rds'),effect='Team')
-coach <- data.frame(coef = readRDS('poscoach1.rds'),effect='Coach')
-defteam <- data.frame(coef = readRDS('defteam1.rds'),effect='DefTeam')
-defcoach <- data.frame(coef = readRDS('defcoach1.rds'),effect='DefCoach')
-
-plot2 <- rbind(qb,team,coach,defteam,defcoach)
-plot2
-
+```{r echo=TRUE}
+r<-read.csv('roster_data.csv')
+r
 ```
 
 **Plots**
-```{r plot, include=FALSE}
+```{r plot}
 library(ggplot2)
-qb <- data.frame(coef = readRDS('passer1.rds'),effect='QB')
-team <- data.frame(coef = readRDS('team1.rds'),effect='Team')
-coach <- data.frame(coef = readRDS('poscoach1.rds'),effect='Coach')
-defteam <- data.frame(coef = readRDS('defteam1.rds'),effect='DefTeam')
-defcoach <- data.frame(coef = readRDS('defcoach1.rds'),effect='DefCoach')
 
-plot2 <- rbind(qb,team,coach,defteam,defcoach)
+plot<-read.csv('analysis.csv')
 
-ggplot(plot2,aes(x=coef,fill=effect))+
+ggplot(plot,aes(x=coef,fill=effect))+
   geom_density(alpha=.4)+
   theme_bw()+ 
   theme(legend.position = 'top',
         legend.title = element_blank())+
   labs(x='Coefficient', y='Density') + ggsave('plot.png',dpi=600, width = 8, height = 5, units = "in")
+#![External image.](plot.png)
+
 ```
 
-![External image.](plot.png)
 
 # Insert images
 
