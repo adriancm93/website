@@ -1,16 +1,19 @@
 1- Create Markdown on folder (use prev post as template - don't add title)
+
 2- knit to html
+
 3- Go to html file and add this on line 1 :
 
 
 ---
 title: "Title name"
 
+summary: "Revisiting previous analysis.
 categories:
 - R
 
 tags:
 - R
 - Mixed-Effects
--Bootstrapping
+- Bootstrapping
 ---
