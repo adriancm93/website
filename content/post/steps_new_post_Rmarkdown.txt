@@ -6,12 +6,10 @@
 
 
 ---
-title: "Making an HTML a post using R Markdown"
-
-description: |
-  This is a "test" post that I decided to use to show people how I create HTML-format posts using R Markdown. People can follow the source code [here](https://github.com/adriancm93/website/blob/master/content/post/qb/index.Rmd). 
+title: "Making an HTML post using R Markdown"
 
 summary: "Tutorial on how to create a post on HTML format using R Markdown"
+
 categories:
 - R
 
@@ -20,3 +18,18 @@ tags:
 - HTML
 - Post
 ---
+
+
+
+
+title: "Making an HTML post using R Markdown"
+author: "Adrian Cadena"
+
+description: |
+  A short description of the post.
+
+output: 
+  html_document:
+    self_contained: false
+    toc: true
+    toc_depth: 3

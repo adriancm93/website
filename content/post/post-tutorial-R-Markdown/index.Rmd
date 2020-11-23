@@ -1,13 +1,23 @@
 ---
 title: "-"
 author: "Adrian Cadena"
-
+caption: "hola"
 output: 
   html_document:
     self_contained: false
     toc: true
     toc_depth: 3
+    df_print: paged
 ---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE, 
+  message = FALSE, 
+  warning = FALSE, 
+  dpi = 300, 
+  tidy = 'styler'
+  )
+```
 
 <style type="text/css">
   body{
@@ -110,12 +120,15 @@ defteam <- data.frame(coef = readRDS('defteam1.rds'),effect='DefTeam')
 defcoach <- data.frame(coef = readRDS('defcoach1.rds'),effect='DefCoach')
 
 plot2 <- rbind(qb,team,coach,defteam,defcoach)
+plot2
+#datatable(plot2)
 
-plot2 %>% head()
+
+
 ```
 
 **Plots**
-```{r include=FALSE}
+```{r plot}
 library(ggplot2)
 qb <- data.frame(coef = readRDS('passer1.rds'),effect='QB')
 team <- data.frame(coef = readRDS('team1.rds'),effect='Team')
