@@ -5,7 +5,11 @@ author: "Adrian Cadena"
 description: |
   A short description of the post.
 
-output: md_document
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 3
 ---
 
 ```{r setup, include=FALSE}
@@ -16,13 +20,16 @@ knitr::opts_chunk$set(
   dpi = 600, 
   tidy = 'styler'
   )
+
+
+# <style type="text/css">
+#   body{
+#   font-size: 13pt;
+# }
+# </style>
 ```
 
-<style type="text/css">
-  body{
-  font-size: 13pt;
-}
-</style>
+
 
 # Intro
 This is a "test" post that I decided to use to show people how I create HTML-format posts using R Markdown. People can follow the source code [here](https://github.com/adriancm93/website/blob/master/content/post/qb/index.Rmd).
