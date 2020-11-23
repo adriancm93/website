@@ -30,7 +30,6 @@ knitr::opts_chunk$set(
 }
 h1.title {
   font-size: 1px;
-  color: DarkRed;
 }
 </style>
 
