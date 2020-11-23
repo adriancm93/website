@@ -5,8 +5,9 @@ author: "Adrian Cadena"
 description: |
   A short description of the post.
 
-output:
-  distill::distill_article:
+
+output: 
+  html_document:
     self_contained: false
     toc: true
     toc_depth: 3
