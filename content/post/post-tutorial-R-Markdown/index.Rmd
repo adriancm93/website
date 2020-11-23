@@ -1,7 +1,8 @@
 ---
+title: "Test"
 author: "Adrian Cadena"
-date: "11-22-2020"
-repository_url: https://github.com/adriancm93/mixed_effects_bootstrapping
+
+abstract: "test abstract"
 
 output:
   html_document:
@@ -27,9 +28,6 @@ knitr::opts_chunk$set(
 <style type="text/css">
   body{
   font-size: 13pt;
-}
-  h1.title {
-  font-size: 5pt;
 }
 </style>
 
@@ -142,10 +140,10 @@ plot2 <- rbind(qb,team,coach,defteam,defcoach)
 ggplot(plot2,aes(x=coef,fill=effect))+
   geom_density(alpha=.4)+
   theme_bw()+ 
-  labs(x='Coefficient', y='Density') + ggsave('featured.jpg',dpi=600, width = 12, height = 8, units = "cm")
+  labs(x='Coefficient', y='Density')# + ggsave('featured.jpg',dpi=600, width = 12, height = 8, units = "cm")
 ```
 
-```{r include=FALSE}
+```{r eval=FALSE, include=FALSE}
 library(magick)
 library(imager)
 img = image_read("featured.jpg")
