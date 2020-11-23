@@ -6,7 +6,7 @@
 
 
 ---
-title: <span style='font-size:150%'> "Making an HTML a post using R Markdown" </span>
+title: "Making an HTML a post using R Markdown"
 
 
 summary: "Tutorial on how to create a post on HTML format using R Markdown"
