@@ -129,7 +129,7 @@ plot2 %>% head()
 ```
 
 **Plots**
-```{r echo=TRUE, fig.height=4, fig.width=6}
+```{r}
 library(ggplot2)
 qb <- data.frame(coef = readRDS('passer1.rds'),effect='QB')
 team <- data.frame(coef = readRDS('team1.rds'),effect='Team')
@@ -142,7 +142,7 @@ plot2 <- rbind(qb,team,coach,defteam,defcoach)
 ggplot(plot2,aes(x=coef,fill=effect))+
   geom_density(alpha=.4)+
   theme_bw()+ 
-  labs(x='Coefficient', y='Density')
+  labs(x='Coefficient', y='Density') 
 ```
 
 # Insert images
