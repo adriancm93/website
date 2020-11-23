@@ -1,5 +1,5 @@
 ---
-title: "Individual Expected Completion using Logistic Generalized Additive Mixed Models"
+title: "Which defensive line position is the most valuable?"
 authors:
 - admin
 - Sam Struthers
