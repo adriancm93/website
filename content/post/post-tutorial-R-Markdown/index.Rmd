@@ -1,18 +1,11 @@
 ---
-title: "Test"
+title: "Making an HTML post using R Markdown"
 author: "Adrian Cadena"
 
-abstract: "test abstract"
+description: |
+  A short description of the post.
 
-output:
-  html_document:
-    toc: yes
-    toc_depth: '3'
-    df_print: paged
-  distill::distill_article:
-    self_contained: no
-    toc: yes
-    toc_depth: 3
+output: md_document
 ---
 
 ```{r setup, include=FALSE}
