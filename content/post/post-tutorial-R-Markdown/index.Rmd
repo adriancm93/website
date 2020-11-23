@@ -33,10 +33,6 @@ knitr::opts_chunk$set(
 }
 </style>
 
-
-# Intro
-This is a "test" post that I decided to use to show people how I create HTML-format posts using R Markdown. People can follow the source code [here](https://github.com/adriancm93/website/blob/master/content/post/qb/index.Rmd). 
-
 # Metadata and format
 
 This is the YAML front matter.  Add this to line 1, including the ```---``` at start and end.
@@ -153,18 +149,6 @@ img = image_read("featured.jpg")
 img_scale = image_scale(img, "20%")  
 image_write(img_scale, path = "featured.jpg", format = "jpg")
 
-```
-
-
-```{r echo=FALSE}
-print(img)
-```
-
-```{r include=FALSE}
-library(magick)
-library(imager)
-img = image_read("featured.jpg")
-img
 ```
 
 
