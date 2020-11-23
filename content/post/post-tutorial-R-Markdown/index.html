@@ -10,8 +10,6 @@ tags:
 - HTML
 - Post
 ---
-
-
 <!DOCTYPE html>
 
 <html>
@@ -300,13 +298,13 @@ library(dplyr)</code></pre>
 <pre><code>## The following objects are masked from &#39;package:base&#39;:
 ##
 ##     intersect, setdiff, setequal, union</code></pre>
-<pre class="r"><code>qb &lt;- data.frame(coef = readRDS(&quot;passer1.rds&quot;), effect = &quot;QB&quot;)
-team &lt;- data.frame(coef = readRDS(&quot;team1.rds&quot;), effect = &quot;Team&quot;)
-coach &lt;- data.frame(coef = readRDS(&quot;poscoach1.rds&quot;), effect = &quot;Coach&quot;)
-defteam &lt;- data.frame(coef = readRDS(&quot;defteam1.rds&quot;), effect = &quot;DefTeam&quot;)
-defcoach &lt;- data.frame(coef = readRDS(&quot;defcoach1.rds&quot;), effect = &quot;DefCoach&quot;)
+<pre class="r"><code>qb &lt;- data.frame(coef = readRDS(&#39;passer1.rds&#39;),effect=&#39;QB&#39;)
+team &lt;- data.frame(coef = readRDS(&#39;team1.rds&#39;),effect=&#39;Team&#39;)
+coach &lt;- data.frame(coef = readRDS(&#39;poscoach1.rds&#39;),effect=&#39;Coach&#39;)
+defteam &lt;- data.frame(coef = readRDS(&#39;defteam1.rds&#39;),effect=&#39;DefTeam&#39;)
+defcoach &lt;- data.frame(coef = readRDS(&#39;defcoach1.rds&#39;),effect=&#39;DefCoach&#39;)
 
-plot2 &lt;- rbind(qb, team, coach, defteam, defcoach)
+plot2 &lt;- rbind(qb,team,coach,defteam,defcoach)
 
 plot2 %&gt;% head()</code></pre>
 <pre><code>##         coef effect
@@ -317,19 +315,6 @@ plot2 %&gt;% head()</code></pre>
 ## 5 0.10731433     QB
 ## 6 0.08128378     QB</code></pre>
 <p><strong>Plots</strong></p>
-<pre><code>library(ggplot2)
-qb &lt;- data.frame(coef = readRDS(&#39;passer1.rds&#39;),effect=&#39;QB&#39;)
-team &lt;- data.frame(coef = readRDS(&#39;team1.rds&#39;),effect=&#39;Team&#39;)
-coach &lt;- data.frame(coef = readRDS(&#39;poscoach1.rds&#39;),effect=&#39;Coach&#39;)
-defteam &lt;- data.frame(coef = readRDS(&#39;defteam1.rds&#39;),effect=&#39;DefTeam&#39;)
-defcoach &lt;- data.frame(coef = readRDS(&#39;defcoach1.rds&#39;),effect=&#39;DefCoach&#39;)
-
-plot2 &lt;- rbind(qb,team,coach,defteam,defcoach)
-
-ggplot(plot2,aes(x=coef,fill=effect))+
-  geom_density(alpha=.4)+
-  theme_bw()+
-  labs(x=&#39;Coefficient&#39;, y=&#39;Density&#39;) + ggsave(&#39;plot.png&#39;,dpi=600)</code></pre>
 <div class="figure">
 <img src="plot.png" alt="" />
 <p class="caption">External image.</p>
