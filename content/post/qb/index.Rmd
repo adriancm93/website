@@ -30,7 +30,7 @@ Here is where I talk about the project.
 
 # Chart
 
-```{r}
+```{r fig.height=2, fig.width=5}
 library(ggplot2)
 qb <- data.frame(coef = readRDS('passer1.rds'),effect='QB')
 team <- data.frame(coef = readRDS('team1.rds'),effect='Team')
