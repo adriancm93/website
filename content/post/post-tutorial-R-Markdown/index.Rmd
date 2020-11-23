@@ -17,11 +17,10 @@ knitr::opts_chunk$set(
   echo = TRUE, 
   message = FALSE, 
   warning = FALSE, 
-  dpi = 600, 
+  dpi = 400, 
   tidy = 'styler'
   )
 ```
-
 
 
 <style type="text/css">
@@ -130,7 +129,7 @@ plot2 %>% head()
 ```
 
 **Plots**
-```{r echo=TRUE}
+```{r echo=TRUE, fig.height=4, fig.width=6}
 library(ggplot2)
 qb <- data.frame(coef = readRDS('passer1.rds'),effect='QB')
 team <- data.frame(coef = readRDS('team1.rds'),effect='Team')
