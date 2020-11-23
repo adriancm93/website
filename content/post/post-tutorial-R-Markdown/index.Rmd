@@ -1,5 +1,5 @@
 ---
-title: "-"
+title: " "
 author: "Adrian Cadena"
 
 description: |
@@ -131,7 +131,7 @@ plot2 %>% head()
 ```
 
 **Plots**
-```{r}
+```{r echo=TRUE}
 library(ggplot2)
 qb <- data.frame(coef = readRDS('passer1.rds'),effect='QB')
 team <- data.frame(coef = readRDS('team1.rds'),effect='Team')
@@ -144,19 +144,8 @@ plot2 <- rbind(qb,team,coach,defteam,defcoach)
 ggplot(plot2,aes(x=coef,fill=effect))+
   geom_density(alpha=.4)+
   theme_bw()+ 
-  labs(x='Coefficient', y='Density')# + ggsave('featured.jpg',dpi=600, width = 12, height = 8, units = "cm")
+  labs(x='Coefficient', y='Density')
 ```
-
-```{r eval=FALSE, include=FALSE}
-library(magick)
-library(imager)
-img = image_read("featured.jpg")
-img_scale = image_scale(img, "20%")  
-image_write(img_scale, path = "featured.jpg", format = "jpg")
-
-```
-
-
 
 # Insert images
 
