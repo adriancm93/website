@@ -2,14 +2,7 @@
 author: "Adrian Cadena"
 date: "11-22-2020"
 repository_url: https://github.com/adriancm93/mixed_effects_bootstrapping
-categories:
-- R
-- Mixed-Effects
-- Bootstrapping
-tags:
-- R
-- Mixed-Effects
-- Bootstrapping
+
 output:
   html_document:
     toc: yes
@@ -32,11 +25,10 @@ knitr::opts_chunk$set(
   )
 ```
 
-# Description
+# Intro
+Here is where I talk about the project.
 
-Revisiting my project evaluating QB impact.
-
-# Plotting
+# Chart
 
 ```{r}
 library(ggplot2)

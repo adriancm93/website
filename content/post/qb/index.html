@@ -1,7 +1,15 @@
-
 ---
 title: "Measuring Quarterback’s value in passing efficiency change"
-summary: Revisiting my project evaluating QB impact.
+
+categories:
+- R
+- Mixed-Effects
+- Bootstrapping
+
+tags:
+- R
+- Mixed-Effects
+-Bootstrapping
 ---
 
 <!DOCTYPE html>
@@ -1692,17 +1700,17 @@ summary {
 
 <div id="TOC">
 <ul>
-<li><a href="#description">Description</a></li>
-<li><a href="#plotting">Plotting</a></li>
+<li><a href="#intro">Intro</a></li>
+<li><a href="#chart">Chart</a></li>
 </ul>
 </div>
 
-<div id="description" class="section level1">
-<h1>Description</h1>
-<p>Revisiting my project evaluating QB impact.</p>
+<div id="intro" class="section level1">
+<h1>Intro</h1>
+<p>Here is where I talk about the project.</p>
 </div>
-<div id="plotting" class="section level1">
-<h1>Plotting</h1>
+<div id="chart" class="section level1">
+<h1>Chart</h1>
 <pre class="r"><code>library(ggplot2)
 qb &lt;- data.frame(coef = readRDS(&#39;passer1.rds&#39;),effect=&#39;QB&#39;)
 team &lt;- data.frame(coef = readRDS(&#39;team1.rds&#39;),effect=&#39;Team&#39;)
