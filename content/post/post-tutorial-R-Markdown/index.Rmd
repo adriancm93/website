@@ -12,13 +12,11 @@ output:
     toc_depth: 3
 ---
 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
-  echo = TRUE, 
-  message = FALSE, 
-  warning = FALSE, 
-  dpi = 400, 
-  tidy = 'styler'
+  dpi = 400,
+    tidy = 'styler'
   )
 ```
 
@@ -129,7 +127,7 @@ plot2 %>% head()
 ```
 
 **Plots**
-```{r}
+```
 library(ggplot2)
 qb <- data.frame(coef = readRDS('passer1.rds'),effect='QB')
 team <- data.frame(coef = readRDS('team1.rds'),effect='Team')
@@ -142,8 +140,9 @@ plot2 <- rbind(qb,team,coach,defteam,defcoach)
 ggplot(plot2,aes(x=coef,fill=effect))+
   geom_density(alpha=.4)+
   theme_bw()+ 
-  labs(x='Coefficient', y='Density') 
+  labs(x='Coefficient', y='Density') + ggsave('plot.png',dpi=600)
 ```
+![External image.](plot.png)
 
 # Insert images
 

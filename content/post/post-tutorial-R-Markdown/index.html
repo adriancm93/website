@@ -1,18 +1,3 @@
----
-title: "Making an HTML a post using R Markdown"
-
-summary: "Tutorial on how to create a post on HTML format using R Markdown"
-
-categories:
-- R
-
-tags:
-- R
-- HTML
-- Post
----
-
-
 <!DOCTYPE html>
 
 <html>
@@ -251,10 +236,10 @@ output:
 <p>To format R code chunks, use this code add <code></code> ``` at start and end:</p>
 <pre><code>{r setup, include=FALSE}
 knitr::opts_chunk$set(
-  echo = TRUE,
-  message = FALSE,
-  warning = FALSE,
-  dpi = 600,
+  echo = TRUE, 
+  message = FALSE, 
+  warning = FALSE, 
+  dpi = 600, 
   tidy = &#39;styler&#39;
   )
 </code></pre>
@@ -292,8 +277,16 @@ pbp &lt;- purrr::map_df(seasons, function(x) {
 <p>You can print <strong>tables</strong> and <strong>plots</strong>:</p>
 <p><strong>Table</strong></p>
 <pre class="r"><code>library(ggplot2)
-library(dplyr)
-qb &lt;- data.frame(coef = readRDS(&quot;passer1.rds&quot;), effect = &quot;QB&quot;)
+library(dplyr)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<pre class="r"><code>qb &lt;- data.frame(coef = readRDS(&quot;passer1.rds&quot;), effect = &quot;QB&quot;)
 team &lt;- data.frame(coef = readRDS(&quot;team1.rds&quot;), effect = &quot;Team&quot;)
 coach &lt;- data.frame(coef = readRDS(&quot;poscoach1.rds&quot;), effect = &quot;Coach&quot;)
 defteam &lt;- data.frame(coef = readRDS(&quot;defteam1.rds&quot;), effect = &quot;DefTeam&quot;)
@@ -310,20 +303,23 @@ plot2 %&gt;% head()</code></pre>
 ## 5 0.10731433     QB
 ## 6 0.08128378     QB</code></pre>
 <p><strong>Plots</strong></p>
-<pre class="r"><code>library(ggplot2)
-qb &lt;- data.frame(coef = readRDS(&quot;passer1.rds&quot;), effect = &quot;QB&quot;)
-team &lt;- data.frame(coef = readRDS(&quot;team1.rds&quot;), effect = &quot;Team&quot;)
-coach &lt;- data.frame(coef = readRDS(&quot;poscoach1.rds&quot;), effect = &quot;Coach&quot;)
-defteam &lt;- data.frame(coef = readRDS(&quot;defteam1.rds&quot;), effect = &quot;DefTeam&quot;)
-defcoach &lt;- data.frame(coef = readRDS(&quot;defcoach1.rds&quot;), effect = &quot;DefCoach&quot;)
+<pre><code>library(ggplot2)
+qb &lt;- data.frame(coef = readRDS(&#39;passer1.rds&#39;),effect=&#39;QB&#39;)
+team &lt;- data.frame(coef = readRDS(&#39;team1.rds&#39;),effect=&#39;Team&#39;)
+coach &lt;- data.frame(coef = readRDS(&#39;poscoach1.rds&#39;),effect=&#39;Coach&#39;)
+defteam &lt;- data.frame(coef = readRDS(&#39;defteam1.rds&#39;),effect=&#39;DefTeam&#39;)
+defcoach &lt;- data.frame(coef = readRDS(&#39;defcoach1.rds&#39;),effect=&#39;DefCoach&#39;)
 
-plot2 &lt;- rbind(qb, team, coach, defteam, defcoach)
+plot2 &lt;- rbind(qb,team,coach,defteam,defcoach)
 
-ggplot(plot2, aes(x = coef, fill = effect)) +
-  geom_density(alpha = .4) +
-  theme_bw() +
-  labs(x = &quot;Coefficient&quot;, y = &quot;Density&quot;)</code></pre>
-<p><img src="index_files/figure-html/unnamed-chunk-3-1.png" width="2800" /></p>
+ggplot(plot2,aes(x=coef,fill=effect))+
+  geom_density(alpha=.4)+
+  theme_bw()+ 
+  labs(x=&#39;Coefficient&#39;, y=&#39;Density&#39;) + ggsave(&#39;plot.png&#39;,dpi=600)</code></pre>
+<div class="figure">
+<img src="plot.png" alt="" />
+<p class="caption">External image.</p>
+</div>
 </div>
 <div id="insert-images" class="section level1">
 <h1>Insert images</h1>
