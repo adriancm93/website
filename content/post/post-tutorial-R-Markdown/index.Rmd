@@ -4,7 +4,7 @@ author: "Adrian Cadena"
 caption: "hola"
 output: 
   html_document:
-    self_contained: false
+    self_contained: true
     toc: true
     toc_depth: 3
     df_print: paged
