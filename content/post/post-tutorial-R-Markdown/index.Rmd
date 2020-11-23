@@ -1,7 +1,6 @@
 ---
 title: "-"
 author: "Adrian Cadena"
-caption: "hola"
 output: 
   html_document:
     self_contained: true
@@ -122,12 +121,15 @@ library(ggplot2)
 
 plot<-read.csv('analysis.csv')
 
-ggplot(plot,aes(x=coef,fill=effect))+
+p<-ggplot(plot,aes(x=coef,fill=effect))+
   geom_density(alpha=.4)+
   theme_bw()+ 
   theme(legend.position = 'top',
         legend.title = element_blank())+
   labs(x='Coefficient', y='Density') + ggsave('plot.png',dpi=600, width = 8, height = 5, units = "in")
+
+p
+
 #![External image.](plot.png)
 
 ```
