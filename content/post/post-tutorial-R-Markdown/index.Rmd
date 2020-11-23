@@ -12,14 +12,6 @@ output:
     toc_depth: 3
 ---
 
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(
-  dpi = 400
-  )
-```
-
-
 <style type="text/css">
   body{
   font-size: 13pt;
@@ -139,6 +131,7 @@ plot2 <- rbind(qb,team,coach,defteam,defcoach)
 ggplot(plot2,aes(x=coef,fill=effect))+
   geom_density(alpha=.4)+
   theme_bw()+ 
+  theme(legend.position = 'top')+
   labs(x='Coefficient', y='Density') + ggsave('plot.png',dpi=600, width = 8, height = 5, units = "in")
 ```
 
