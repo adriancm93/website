@@ -6,14 +6,15 @@
 
 
 ---
-title: "Title name"
+title: <span style='font-size:150%'> "Making an HTML a post using R Markdown" </span>
 
-summary: "Revisiting previous analysis.
+
+summary: "Tutorial on how to create a post on HTML format using R Markdown"
 categories:
 - R
 
 tags:
 - R
-- Mixed-Effects
-- Bootstrapping
+- HTML
+- Post
 ---
