@@ -1,3 +1,17 @@
+---
+title: "Making an HTML a post using R Markdown"
+
+summary: "Tutorial on how to create a post on HTML format using R Markdown"
+categories:
+- R
+
+tags:
+- R
+- HTML
+- Post
+---
+
+
 <!DOCTYPE html>
 
 <html>
@@ -236,10 +250,10 @@ output:
 <p>To format R code chunks, use this code add <code></code> ``` at start and end:</p>
 <pre><code>{r setup, include=FALSE}
 knitr::opts_chunk$set(
-  echo = TRUE, 
-  message = FALSE, 
-  warning = FALSE, 
-  dpi = 600, 
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE,
+  dpi = 600,
   tidy = &#39;styler&#39;
   )
 </code></pre>
@@ -278,13 +292,13 @@ pbp &lt;- purrr::map_df(seasons, function(x) {
 <p><strong>Table</strong></p>
 <pre class="r"><code>library(ggplot2)
 library(dplyr)</code></pre>
-<pre><code>## 
+<pre><code>##
 ## Attaching package: &#39;dplyr&#39;</code></pre>
 <pre><code>## The following objects are masked from &#39;package:stats&#39;:
-## 
+##
 ##     filter, lag</code></pre>
 <pre><code>## The following objects are masked from &#39;package:base&#39;:
-## 
+##
 ##     intersect, setdiff, setequal, union</code></pre>
 <pre class="r"><code>qb &lt;- data.frame(coef = readRDS(&quot;passer1.rds&quot;), effect = &quot;QB&quot;)
 team &lt;- data.frame(coef = readRDS(&quot;team1.rds&quot;), effect = &quot;Team&quot;)
@@ -314,7 +328,7 @@ plot2 &lt;- rbind(qb,team,coach,defteam,defcoach)
 
 ggplot(plot2,aes(x=coef,fill=effect))+
   geom_density(alpha=.4)+
-  theme_bw()+ 
+  theme_bw()+
   labs(x=&#39;Coefficient&#39;, y=&#39;Density&#39;) + ggsave(&#39;plot.png&#39;,dpi=600)</code></pre>
 <div class="figure">
 <img src="plot.png" alt="" />
