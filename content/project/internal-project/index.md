@@ -11,7 +11,6 @@ date: "2020-11-21T00:00:00Z"
 external_link: ""
 
 image:
-  caption: ROC Curve for Out-of-sample Predictions
   focal_point: Smart
 
 
