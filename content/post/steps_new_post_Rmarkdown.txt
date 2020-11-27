@@ -19,17 +19,3 @@ tags:
 - Post
 ---
 
-
-
-
-title: "Making an HTML post using R Markdown"
-author: "Adrian Cadena"
-
-description: |
-  A short description of the post.
-
-output: 
-  html_document:
-    self_contained: false
-    toc: true
-    toc_depth: 3
