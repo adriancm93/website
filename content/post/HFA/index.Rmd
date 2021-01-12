@@ -3,7 +3,7 @@ title: "-"
 author: "Adrian Cadena"
 output: 
   html_document:
-    self_contained: true
+    self_contained: false
     toc: true
     toc_depth: 3
     df_print: paged
@@ -133,15 +133,15 @@ plot %>%
   )+
   theme(
     panel.grid.minor = element_blank(),
-    plot.title = element_text(hjust=0.5,size=11,color='gray20',family = "Trebuchet MS"),
-    plot.subtitle = element_text(hjust=0.5,size=9,color='gray20',family = "Trebuchet MS"),
-    axis.title = element_text(hjust=0.5,size=9,color='gray20',family = "Trebuchet MS"),
+    plot.title = element_text(hjust=0.5,size=10,color='gray20',family = "Trebuchet MS"),
+    plot.subtitle = element_text(hjust=0.5,size=8,color='gray20',family = "Trebuchet MS"),
+    axis.title = element_text(hjust=0.5,size=8,color='gray20',family = "Trebuchet MS"),
     axis.title.y = element_blank(),
-    axis.text.x =  element_text(hjust=0.5,size=8,color='gray20',family = "Trebuchet MS"),
-    plot.caption = element_text(size=8,color='gray20',family = "Trebuchet MS"),
+    axis.text.x =  element_text(hjust=0.5,size=7,color='gray20',family = "Trebuchet MS"),
+    plot.caption = element_text(size=7,color='gray20',family = "Trebuchet MS"),
     legend.position = 'right',
-    legend.title = element_text(size=8,color='gray20',family = "Trebuchet MS"),
-    legend.text = element_text(size=8,color='gray20',family = "Trebuchet MS")
+    legend.title = element_text(size=7,color='gray20',family = "Trebuchet MS"),
+    legend.text = element_text(size=7,color='gray20',family = "Trebuchet MS")
   ) 
 ```
 
@@ -209,11 +209,11 @@ last couple of seasons until reaching a negative value in 2019",
   theme_bw()+
   theme(
     panel.grid.minor = element_blank(),
-    plot.title = element_text(hjust=0.5,size=13,color='gray20',family = "Trebuchet MS"),
-    plot.subtitle = element_text(hjust=0.5,size=11,color='gray20',family = "Trebuchet MS"),
-    axis.title = element_text(hjust=0.5,size=11,color='gray20',family = "Trebuchet MS"),
+    plot.title = element_text(hjust=0.5,size=12,color='gray20',family = "Trebuchet MS"),
+    plot.subtitle = element_text(hjust=0.5,size=10,color='gray20',family = "Trebuchet MS"),
+    axis.title = element_text(hjust=0.5,size=10,color='gray20',family = "Trebuchet MS"),
     axis.text.y =  element_blank(),
-    axis.text.x =  element_text(hjust=0.5,size=11,color='gray20',family = "Trebuchet MS"),
+    axis.text.x =  element_text(hjust=0.5,size=10,color='gray20',family = "Trebuchet MS"),
     plot.caption = element_text(size=9,color='gray20',family = "Trebuchet MS")
     )  +ggsave("C:/Users/adrian-boss/Documents/GitHub/website/content/post/HFA/featured.png")
 ```
@@ -281,9 +281,9 @@ As an example, I present iHFA for ARI and PHI since 2006.',
   )+
   theme(
     panel.grid.minor = element_blank(),
-    plot.title = element_text(hjust=0.5,size=13,color='gray20',family = "Trebuchet MS"),
-    plot.subtitle = element_text(hjust=0.5,size=11,color='gray20',family = "Trebuchet MS"),
-    axis.text.x =  element_text(hjust=0.5,size=11,color='gray20',family = "Trebuchet MS"),
+    plot.title = element_text(hjust=0.5,size=12,color='gray20',family = "Trebuchet MS"),
+    plot.subtitle = element_text(hjust=0.5,size=10,color='gray20',family = "Trebuchet MS"),
+    axis.text.x =  element_text(hjust=0.5,size=10,color='gray20',family = "Trebuchet MS"),
     plot.caption = element_text(size=9,color='gray20',family = "Trebuchet MS"),
     legend.position = 'top',
     legend.title = element_text(size=8,color='gray20',family = "Trebuchet MS"),
@@ -362,15 +362,15 @@ plot %>%
   )+
   theme(
     panel.grid.minor = element_blank(),
-    plot.title = element_text(hjust=0.5,size=11,color='gray20',family = "Trebuchet MS"),
-    plot.subtitle = element_text(hjust=0.5,size=9,color='gray20',family = "Trebuchet MS"),
-    axis.title = element_text(hjust=0.5,size=9,color='gray20',family = "Trebuchet MS"),
+    plot.title = element_text(hjust=0.5,size=10,color='gray20',family = "Trebuchet MS"),
+    plot.subtitle = element_text(hjust=0.5,size=8,color='gray20',family = "Trebuchet MS"),
+    axis.title = element_text(hjust=0.5,size=8,color='gray20',family = "Trebuchet MS"),
     axis.title.y = element_blank(),
-    axis.text.x =  element_text(hjust=0.5,size=8,color='gray20',family = "Trebuchet MS"),
-    plot.caption = element_text(size=8,color='gray20',family = "Trebuchet MS"),
+    axis.text.x =  element_text(hjust=0.5,size=7,color='gray20',family = "Trebuchet MS"),
+    plot.caption = element_text(size=7,color='gray20',family = "Trebuchet MS"),
     legend.position = 'right',
-    legend.title = element_text(size=8,color='gray20',family = "Trebuchet MS"),
-    legend.text = element_text(size=8,color='gray20',family = "Trebuchet MS")
+    legend.title = element_text(size=7,color='gray20',family = "Trebuchet MS"),
+    legend.text = element_text(size=7,color='gray20',family = "Trebuchet MS")
   ) 
 ```
 
