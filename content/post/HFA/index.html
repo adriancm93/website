@@ -1,21 +1,3 @@
----
-title: 'Analyzing Home Field Advantage in the NFL'
-
-summary: Multi-season analysis of league and team-specific home-field advantage in the NFL.
-
-tags:
-- Home Field Advantage
-- R
-
-categories:
-- Article
-
-image:
-  placement: 2
-  focal_point: ""
-  preview_only: true
----
-
 <!DOCTYPE html>
 
 <html>
@@ -254,14 +236,19 @@ h1.title {
 <li><p>How each team performs home vs. away</p></li>
 </ul>
 <p>After adjusting for the listed variables, I found the real value of LHFA and iHFA. Unsurprisingly, these adjustments decreased iHFA for teams with successful head coaches and elite quarterbacks like NE, NO, and SEA. Overperformance by weak teams, bad QB’s, and incompetent HC’s is then explained by the home/away variable. A chart displaying HFA for each team, along with confidence intervals, during 2006-2020 is presented below.</p>
-<p><img src="index_files/figure-html/HFA_chart-1.png" width="1200" /></p>
+<div class="figure">
+<img src="figures/HFA_chart-1.png" alt="" />
+<p class="caption">External image.</p>
+</div>
 </div>
 <div id="how-does-home-field-advantage-behave" class="section level2">
 <h2>How does home field advantage behave?</h2>
 <p>Sports analysts and betting enthusiasts have speculated about a possible shrinkage of LHFA during the last couple of years. In 2019, away teams slightly outscored home teams: 5858 to 5822 during the regular season. In 2020, home teams slightly outscored away teams: 6353 to 6339. Besides the shrinking theory, LHFA appears to have a cyclical behavior, meaning it changes year over year in an “up and down” fashion. The following chart shows how LHFA has moved since 2006 until reaching a negative value in 2019 and then moving back up to a low positive value in 2020.</p>
-<p><img src="index_files/figure-html/LHFA_chart-1.png" width="1800" /></p>
+<div class="figure">
+<img src="figures/LHFA_chart-1.png" alt="" />
+<p class="caption">External image.</p>
+</div>
 <p>Similar to LHFA, iHFA for a given team is not the same across seasons. For example, according to my model, the Panthers were a better home team in 2006 (+2.4 points) than in 2007 (+0 points). iHFA appears to be very unpredictable and almost random on a year over year basis. The following chart presents a two-team example of iHFA behavior (Arizona Cardinals and Philadelphia Eagles).</p>
-<p><img src="index_files/figure-html/iHFA_chart-1.png" width="1800" /></p>
 </div>
 <div id="summary" class="section level2">
 <h2>Summary</h2>
@@ -273,7 +260,10 @@ h1.title {
 <p>5- Team-Specific Home Field Advantage (iHFA) increase or decrease the effect of LHFA in a given season for each team</p>
 <p>6- iHFA seems to be volatile and unpredictable. Future analysis could determine if one or more iHFA’s is statistically better than the rest on a multi-season basis.</p>
 <p>Just for fun, here is true HFA for each team during the 2020 season, which presented significant iHFA among teams.</p>
-<p><img src="index_files/figure-html/HFA18_chart-1.png" width="1200" /></p>
+<div class="figure">
+<img src="figures/HFA18_chart-1.png" alt="" />
+<p class="caption">External image.</p>
+</div>
 </div>
 <div id="methodology" class="section level2">
 <h2>Methodology</h2>
