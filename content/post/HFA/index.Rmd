@@ -1,5 +1,5 @@
 ---
-title: " "
+title: "-"
 author: "Adrian Cadena"
 output: 
   html_document:
@@ -19,6 +19,19 @@ knitr::opts_chunk$set(
   tidy = 'styler'
   )
 
+```
+
+<style type="text/css">
+  body{
+  font-size: 13pt;
+}
+h1.title {
+  font-size: 1px;
+}
+</style>
+
+
+```{r libs, message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
 # load needed packages
 library(lme4)
 library(dplyr)
@@ -41,16 +54,6 @@ sample<-readRDS('~/GitHub/Quantifying-HFA/gbg_hc.RDS') %>%
                select(HC_index = grade, coach),
              by='coach')
 ```
-
-<style type="text/css">
-  body{
-  font-size: 13pt;
-}
-h1.title {
-  font-size: 1px;
-}
-</style>
-
 
 ## Introduction
 The sports betting industry and their enthusiasts continually try to find the correct value of a home field advantage (HFA) in terms of “point-spread” to create betting lines. In particular, NFL bookmakers tend to reward a home field with three points on average; this varies across different home teams per season. The idea is that playing at home is considered an advantage in the NFL, and some teams have a stronger HFA than others. Interested in this topic, I decided to use nflfastR and PFF data to quantify HFA advantage for the league and each team. I also leveraged the opportunity to analyze the behavior of HFA across seasons.
@@ -130,15 +133,15 @@ plot %>%
   )+
   theme(
     panel.grid.minor = element_blank(),
-    plot.title = element_text(hjust=0.5,size=12,color='gray20',family = "Trebuchet MS"),
-    plot.subtitle = element_text(hjust=0.5,size=10,color='gray20',family = "Trebuchet MS"),
-    axis.title = element_text(hjust=0.5,size=10,color='gray20',family = "Trebuchet MS"),
+    plot.title = element_text(hjust=0.5,size=11,color='gray20',family = "Trebuchet MS"),
+    plot.subtitle = element_text(hjust=0.5,size=9,color='gray20',family = "Trebuchet MS"),
+    axis.title = element_text(hjust=0.5,size=9,color='gray20',family = "Trebuchet MS"),
     axis.title.y = element_blank(),
-    axis.text.x =  element_text(hjust=0.5,size=9,color='gray20',family = "Trebuchet MS"),
-    plot.caption = element_text(size=9,color='gray20',family = "Trebuchet MS"),
+    axis.text.x =  element_text(hjust=0.5,size=8,color='gray20',family = "Trebuchet MS"),
+    plot.caption = element_text(size=8,color='gray20',family = "Trebuchet MS"),
     legend.position = 'right',
-    legend.title = element_text(size=9,color='gray20',family = "Trebuchet MS"),
-    legend.text = element_text(size=9,color='gray20',family = "Trebuchet MS")
+    legend.title = element_text(size=8,color='gray20',family = "Trebuchet MS"),
+    legend.text = element_text(size=8,color='gray20',family = "Trebuchet MS")
   ) 
 ```
 
@@ -206,12 +209,12 @@ last couple of seasons until reaching a negative value in 2019",
   theme_bw()+
   theme(
     panel.grid.minor = element_blank(),
-    plot.title = element_text(hjust=0.5,size=14,color='gray20',family = "Trebuchet MS"),
-    plot.subtitle = element_text(hjust=0.5,size=12,color='gray20',family = "Trebuchet MS"),
-    axis.title = element_text(hjust=0.5,size=12,color='gray20',family = "Trebuchet MS"),
+    plot.title = element_text(hjust=0.5,size=13,color='gray20',family = "Trebuchet MS"),
+    plot.subtitle = element_text(hjust=0.5,size=11,color='gray20',family = "Trebuchet MS"),
+    axis.title = element_text(hjust=0.5,size=11,color='gray20',family = "Trebuchet MS"),
     axis.text.y =  element_blank(),
-    axis.text.x =  element_text(hjust=0.5,size=12,color='gray20',family = "Trebuchet MS"),
-    plot.caption = element_text(size=10,color='gray20',family = "Trebuchet MS")
+    axis.text.x =  element_text(hjust=0.5,size=11,color='gray20',family = "Trebuchet MS"),
+    plot.caption = element_text(size=9,color='gray20',family = "Trebuchet MS")
     )  +ggsave("C:/Users/adrian-boss/Documents/GitHub/website/content/post/HFA/featured.png")
 ```
 
@@ -278,13 +281,13 @@ As an example, I present iHFA for ARI and PHI since 2006.',
   )+
   theme(
     panel.grid.minor = element_blank(),
-    plot.title = element_text(hjust=0.5,size=14,color='gray20',family = "Trebuchet MS"),
-    plot.subtitle = element_text(hjust=0.5,size=12,color='gray20',family = "Trebuchet MS"),
-    axis.text.x =  element_text(hjust=0.5,size=12,color='gray20',family = "Trebuchet MS"),
-    plot.caption = element_text(size=10,color='gray20',family = "Trebuchet MS"),
+    plot.title = element_text(hjust=0.5,size=13,color='gray20',family = "Trebuchet MS"),
+    plot.subtitle = element_text(hjust=0.5,size=11,color='gray20',family = "Trebuchet MS"),
+    axis.text.x =  element_text(hjust=0.5,size=11,color='gray20',family = "Trebuchet MS"),
+    plot.caption = element_text(size=9,color='gray20',family = "Trebuchet MS"),
     legend.position = 'top',
-    legend.title = element_text(size=9,color='gray20',family = "Trebuchet MS"),
-    legend.text = element_text(size=9,color='gray20',family = "Trebuchet MS")
+    legend.title = element_text(size=8,color='gray20',family = "Trebuchet MS"),
+    legend.text = element_text(size=8,color='gray20',family = "Trebuchet MS")
   ) + scale_x_continuous(breaks=c(2006,2008,2010,2012,2014,2016,2018,2020))
 ```
 
@@ -359,15 +362,15 @@ plot %>%
   )+
   theme(
     panel.grid.minor = element_blank(),
-    plot.title = element_text(hjust=0.5,size=12,color='gray20',family = "Trebuchet MS"),
-    plot.subtitle = element_text(hjust=0.5,size=10,color='gray20',family = "Trebuchet MS"),
-    axis.title = element_text(hjust=0.5,size=10,color='gray20',family = "Trebuchet MS"),
+    plot.title = element_text(hjust=0.5,size=11,color='gray20',family = "Trebuchet MS"),
+    plot.subtitle = element_text(hjust=0.5,size=9,color='gray20',family = "Trebuchet MS"),
+    axis.title = element_text(hjust=0.5,size=9,color='gray20',family = "Trebuchet MS"),
     axis.title.y = element_blank(),
-    axis.text.x =  element_text(hjust=0.5,size=9,color='gray20',family = "Trebuchet MS"),
-    plot.caption = element_text(size=9,color='gray20',family = "Trebuchet MS"),
+    axis.text.x =  element_text(hjust=0.5,size=8,color='gray20',family = "Trebuchet MS"),
+    plot.caption = element_text(size=8,color='gray20',family = "Trebuchet MS"),
     legend.position = 'right',
-    legend.title = element_text(size=9,color='gray20',family = "Trebuchet MS"),
-    legend.text = element_text(size=9,color='gray20',family = "Trebuchet MS")
+    legend.title = element_text(size=8,color='gray20',family = "Trebuchet MS"),
+    legend.text = element_text(size=8,color='gray20',family = "Trebuchet MS")
   ) 
 ```
 
