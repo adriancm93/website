@@ -65,6 +65,8 @@ Sports analysts and betting enthusiasts have speculated about a possible shrinka
 
 Similar to LHFA, iHFA for a given team is not the same across seasons. For example, according to my model, the Panthers were a better home team in 2006 (+2.4 points) than in 2007 (+0 points). iHFA appears to be very unpredictable and almost random on a year over year basis. The following chart presents a two-team example of iHFA behavior (Arizona Cardinals and Philadelphia Eagles).
 
+![External image.](figures/iHFA_chart-1.png)
+
 ## Summary
 This is a list of observations and findings informed by my analysis:
 
