@@ -1,5 +1,5 @@
 ---
-title: ""
+title: " "
 author: "Adrian Cadena"
 output: 
   html_document:
@@ -42,6 +42,15 @@ sample<-readRDS('~/GitHub/Quantifying-HFA/gbg_hc.RDS') %>%
              by='coach')
 ```
 
+<style type="text/css">
+  body{
+  font-size: 13pt;
+}
+h1.title {
+  font-size: 1px;
+}
+</style>
+
 
 ## Introduction
 The sports betting industry and their enthusiasts continually try to find the correct value of a home field advantage (HFA) in terms of “point-spread” to create betting lines. In particular, NFL bookmakers tend to reward a home field with three points on average; this varies across different home teams per season. The idea is that playing at home is considered an advantage in the NFL, and some teams have a stronger HFA than others. Interested in this topic, I decided to use nflfastR and PFF data to quantify HFA advantage for the league and each team. I also leveraged the opportunity to analyze the behavior of HFA across seasons.
@@ -67,7 +76,7 @@ When thinking about strong home fields, most people think about Seattle, Pittsbu
 
 After adjusting for the listed variables, I found the real value of LHFA and iHFA. Unsurprisingly, these adjustments decreased iHFA for teams with successful head coaches and elite quarterbacks like NE, NO, and SEA. Overperformance by weak teams, bad QB’s, and incompetent HC’s is then explained by the home/away variable. A chart displaying HFA for each team, along with confidence intervals, during 2006-2020 is presented below.
 
-```{r HFA_chart, echo=FALSE, fig.height=7, fig.width=5}
+```{r HFA_chart, echo=FALSE, fig.height=6, fig.width=4}
 # Mixed model ----------------------------------------------------------------------
 model = sample %>%
   filter(season>=2006) %>%
@@ -130,14 +139,14 @@ plot %>%
     legend.position = 'right',
     legend.title = element_text(size=9,color='gray20',family = "Trebuchet MS"),
     legend.text = element_text(size=9,color='gray20',family = "Trebuchet MS")
-  ) +ggsave("C:/Users/adrian-boss/Documents/GitHub/website/content/post/HFA/plot1.png")
+  ) 
 ```
 
 ## How does home field advantage behave?
 
 Sports analysts and betting enthusiasts have speculated about a possible shrinkage of LHFA during the last couple of years. In 2019, away teams slightly outscored home teams: 5858 to 5822 during the regular season. In 2020, home teams slightly outscored away teams: 6353 to 6339. Besides the shrinking theory, LHFA appears to have a cyclical behavior, meaning it changes year over year in an “up and down” fashion. The following chart shows how LHFA has moved since 2006 until reaching a negative value in 2019 and then moving back up to a low positive value in 2020.
 
-```{r LHFA_chart, echo=FALSE, fig.height=5, fig.width=7, message=FALSE, warning=FALSE}
+```{r LHFA_chart, echo=FALSE, fig.height=4, fig.width=6, message=FALSE, warning=FALSE}
 lst = list()
 for (y in 2006:2020){
   data_y = sample %>% dplyr::filter(season == y)
@@ -208,7 +217,7 @@ last couple of seasons until reaching a negative value in 2019",
 
 Similar to LHFA, iHFA for a given team is not the same across seasons. For example, according to my model, the Panthers were a better home team in 2006 (+2.4 points) than in 2007 (+0 points). iHFA appears to be very unpredictable and almost random on a year over year basis. The following chart presents a two-team example of iHFA behavior (Arizona Cardinals and Philadelphia Eagles).
 
-```{r iHFA_chart, echo=FALSE, fig.height=6, fig.width=7}
+```{r iHFA_chart, echo=FALSE, fig.height=5, fig.width=6}
 lst = list()
 for (y in 2006:2020){
   data_y = sample %>% dplyr::filter(season == y)
@@ -296,7 +305,7 @@ This is a list of observations and findings informed by my analysis:
 
 Just for fun, here is true HFA for each team during the 2020 season, which presented significant iHFA among teams.
 
-```{r HFA18_chart, echo=FALSE, fig.height=7, fig.width=5}
+```{r HFA18_chart, echo=FALSE, fig.height=6, fig.width=4}
 # Mixed model ----------------------------------------------------------------------
 model = sample %>%
   filter(season==2020) %>%
