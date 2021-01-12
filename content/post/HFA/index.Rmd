@@ -1,5 +1,5 @@
 ---
-title: "-"
+title: ""
 author: "Adrian Cadena"
 output: 
   html_document:
