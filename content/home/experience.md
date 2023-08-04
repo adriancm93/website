@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "Recent Professional Experience"
+title = "Professional Experience"
 subtitle = ""
 
 # Date format for experience
@@ -18,7 +18,22 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Sr. Data analyst"
+  title = "Data Analyst Advisor"
+  company = "FedEx"
+  company_url = "https://www.fedex.com/en-us/home.html"
+  location = "Tennessee"
+  date_start = "2022-09-01"
+  description = """
+  Achievements:
+
+ * Joined a collaborative effort to develop a data strategy and architecture with governance and scalability as priority
+ * Played critical role in the development of an Azure data-lake which currently facilitates the financial close process
+ * Followed DevOps practices to move transport data from Oracle IAAS into a Databrick Azure environment
+ * Interfaced AWS S3 with RPA technology to replace NAS drives
+
+"""
+[[experience]]
+  title = "Sr. Data Analyst"
   company = "FedEx"
   company_url = "https://www.fedex.com/en-us/home.html"
   location = "Tennessee"
@@ -26,9 +41,10 @@ date_format = "Jan 2006"
   description = """
   Responsibilities:
 
-  * Developing and testing bots to automate business processes anticipated to increase productivity and reduce costs
-  * Utilizing Feed Forward and LSTM Neural Network algorithms to forecast accounts while supporting the company’s Strategic Outlook for the next three fiscal years. Insight was obtained and presented to a leadership team
-  * Improved forecasting accuracy for multiple accounts by 8% compared to the previous methodology
+ * Leveraged RPA technology to automate tasks obtaining, processing, and pushing data to relational database tables
+ * Programed ETL pipelines to feed data to dashboards in production supporting financial analysts and stakeholders
+ * Developed web applications using HTML, CSS, JavaScript, and Python back end to support contract reporting
+
 """
 
 [[experience]]
@@ -41,8 +57,10 @@ date_format = "Jan 2006"
   description = """
   Achievements:
 
-  * Built data pipelines to automate processing and analysis utilizing various tools, which lead to time savings of 5 hours per month for the analyst leading our forecasting efforts
-  * Implemented, managed, and coordinated a Tableau Server with 28 members to be utilized by multiple teams within a Finance division
+ * Increased guess lead’s productivity by building pipelines to automate data processing and dashboard generation
+ * Implemented and managed a Tableau Server used by multiple teams for data storage, EDA, and monthly reporting
+ * Boosted query speed by 20% and productivity of a finance team by applying SQL tuning techniques
+
 """
 
 [[experience]]
@@ -54,6 +72,6 @@ date_format = "Jan 2006"
   date_end = "2019-08-01"
   description = """
   Achievements:
-  * Programmed statistical models to evaluate the effects of the FedEx Technology Incentive Program (FTIP) on revenue growth by analyzing over $30 million in cash awards
+ * Presented recommendations to increase the expense-to-return ratio growth after analyzing $30 million in awards and programming statistical models to evaluate the FedEx Technology Incentive Program's effects on revenue. 
 """
 +++
