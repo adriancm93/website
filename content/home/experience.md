@@ -38,8 +38,9 @@ date_format = "Jan 2006"
   company_url = "https://www.fedex.com/en-us/home.html"
   location = "Tennessee"
   date_start = "2020-05-01"
+    date_end = "2022-09-01"
   description = """
-  Responsibilities:
+  Achievements:
 
  * Leveraged RPA technology to automate tasks obtaining, processing, and pushing data to relational database tables
  * Programed ETL pipelines to feed data to dashboards in production supporting financial analysts and stakeholders
