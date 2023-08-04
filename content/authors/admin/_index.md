@@ -6,7 +6,7 @@ title: Adrian Cadena-Medina
 superuser: true
 
 # Role/position
-role: Senior Data Analyst
+role: Data Analyst Advisor
 
 # Organizations/Affiliations
 organizations:
@@ -41,7 +41,7 @@ social:
   link: /#contact
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/adrian_stats
+  link:
 - icon: medium
   icon_pack: fab
   link: https://adriancadena.medium.com/
@@ -59,7 +59,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "adrian.cadena@utdallas.edu"
+email: "adrian@adriancadena.com "
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
