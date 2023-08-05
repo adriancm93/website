@@ -88,16 +88,16 @@ show_related = {book = true, page = false, post = true, project = true, publicat
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "adrian.cadena@utdallas.edu"
-phone = "(956) 331 3726"
+email = "adrian@adriancadena.com"
+phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {city = "Collierville", region = "TN", postcode = "38017", country = "United States", country_code = "US"}
+#address = {city = "Collierville", region = "TN", postcode = "38017", country = "United States", country_code = "US"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "35.036013", longitude = "-89.720939"}
+#coordinates = {latitude = "35.036013", longitude = "-89.720939"}
 
 # Directions for visitors to locate you.
 directions = []

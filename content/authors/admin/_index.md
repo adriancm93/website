@@ -39,9 +39,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: /#contact
-- icon: twitter
-  icon_pack: fab
-  link:
 - icon: medium
   icon_pack: fab
   link: https://adriancadena.medium.com/
@@ -74,4 +71,4 @@ I am a Senior Data analyst and statistics enthusiast interested in Machine Learn
 
 I have leveraged financial and statistical modeling to obtain business insights to provide value to my organizations during my career. I enjoy applying statistical and machine learning methods to sports analytics, particularly NFL analytics. Other research interests include sustainability, economics, and finance.
 
-Contact: adrian@adriancadna.com
+Contact: adrian@adriancadena.com
