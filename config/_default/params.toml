@@ -112,8 +112,7 @@ appointment_url = ""
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/adrian_stats"},
-  {icon = "linkedin-in",icon_pack = "fab", name= "Message Me", link = "https://www.linkedin.com/in/adriancadenam/"},
+  {icon = "linkedin-in",icon_pack = "fab", name= "Message Me", link = "https://www.linkedin.com/in/adriancadenam/"}
   ]
 
 ############################
@@ -124,7 +123,7 @@ contact_links = [
 sharing_image = "Adrian_Head_Shot_5-removebg.png"
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter = "adrian_stats"
+twitter = ""
 
 ############################
 ## Regional Settings
