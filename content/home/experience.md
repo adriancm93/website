@@ -43,9 +43,11 @@ date_format = "Jan 2006"
   description = """
   Achievements:
 
- * Leveraged RPA technology to automate tasks obtaining, processing, and pushing data to relational database tables
- * Programed ETL pipelines to feed data to dashboards in production supporting financial analysts and stakeholders
- * Developed web applications using HTML, CSS, JavaScript, and Python back end to support contract reporting
+ * Engineered production automation workflows in Automation Anywhere to orchestrate data retrieval, processing, and delivery for finance close activities, reducing manual effort and supporting recurring FP&A reporting used by directors and executive leadership.
+ * Developed and supported production ETL processes that moved financial data into downstream reporting layers, enabling dashboards and close reports consumed by analysts and business stakeholders.
+ * Built a cloud-hosted internal reporting application in Dataiku, using Python backend integrations with Oracle and front-end components in HTML/CSS/JavaScript to deliver contract and financial reporting in production.
+ * Integrated AWS S3 with RPA and scripted workflows to replace legacy NAS-based file handling, improving scalability and operational efficiency of data distribution processes.
+ * Recognized with three Bravo Zulu awards for contributions to forecast/reporting automation, close-process RPA, and FP&A reporting enablement.
 
 """
 
@@ -58,12 +60,12 @@ date_format = "Jan 2006"
   date_end = "2020-05-01"
   description = """
   Achievements:
+  
+ * Automated recurring data preparation and reporting workflows using Dataiku and Alteryx, reducing manual effort for FP&A processes and improving productivity for monthly forecasting and close-related reporting.
+ * Administered a production Tableau Server environment supporting multiple teams, including workspace management, role-based access, and dashboard distribution for financial planning and analysis use cases.
+ * Developed and supported Tableau reporting assets used in monthly financial reporting and close processes, while training business users on dashboard access, interpretation, and self-service usage.
+ * Improved query performance by approximately 20% through SQL tuning and optimization, helping accelerate reporting workflows and increase productivity across finance teams.
 
- * Engineered production automation workflows in Automation Anywhere to orchestrate data retrieval, processing, and delivery for finance close activities, reducing manual effort and supporting recurring FP&A reporting used by directors and executive leadership.
- * Developed and supported production ETL processes that moved financial data into downstream reporting layers, enabling dashboards and close reports consumed by analysts and business stakeholders.
- * Built a cloud-hosted internal reporting application in Dataiku, using Python backend integrations with Oracle and front-end components in HTML/CSS/JavaScript to deliver contract and financial reporting in production.
- * Integrated AWS S3 with RPA and scripted workflows to replace legacy NAS-based file handling, improving scalability and operational efficiency of data distribution processes.
- * Recognized with three Bravo Zulu awards for contributions to forecast/reporting automation, close-process RPA, and FP&A reporting enablement.
 
 """
 
@@ -76,9 +78,11 @@ date_format = "Jan 2006"
   date_end = "2019-08-01"
   description = """
   Achievements:
- * Automated recurring data preparation and reporting workflows using Dataiku and Alteryx, reducing manual effort for FP&A processes and improving productivity for monthly forecasting and close-related reporting.
- * Administered a production Tableau Server environment supporting multiple teams, including workspace management, role-based access, and dashboard distribution for financial planning and analysis use cases.
- * Developed and supported Tableau reporting assets used in monthly financial reporting and close processes, while training business users on dashboard access, interpretation, and self-service usage.
- * Improved query performance by approximately 20% through SQL tuning and optimization, helping accelerate reporting workflows and increase productivity across finance teams.
+
+ * Analyzed approximately $30M in incentive awards tied to vendor programs, evaluating the relationship between equipment incentives and downstream revenue generation to assess program ROI.
+ * Built regression-based statistical models with non-linear terms to identify the point at which incremental incentive spending produced diminishing marginal returns on revenue.
+ * Delivered data-driven recommendations on incentive efficiency and expense-to-return optimization, helping inform decision-making around vendor investment strategy.
+ * Produced a written analytical report and presented findings to stakeholders; work was well received and contributed to receiving a full-time offer.
+
 """
 +++
