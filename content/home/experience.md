@@ -26,8 +26,11 @@ date_format = "Jan 2006"
   description = """
   Achievements:
 
- * Joined a collaborative effort to develop a data strategy and architecture with governance and scalability as priority
-
+ * Drove the design and development of production finance data products in FIP, a cloud-based Azure Databricks platform that ingests Oracle Fusion data via BICC, OCI, and Azure Data Factory into layered lakehouse tables used across FedEx finance.
+ * Developed the underlying Databricks notebook logic for a multi-million-row curated table built from 20+ Oracle Fusion source tables that combines general ledger and subledger detail to support close, reconciliations, audit research, variance analysis, and ad hoc investigation across global regions.
+ * Engineered transformation logic in PySpark, Python, and SQL, including complex joins, enrichment rules, deduplication, hierarchy mapping, and business-rule standardization; also automated ingestion of account, cost center, and legal entity hierarchies from Oracle EDM into production tables.
+ * Led an efficiency initiative that increased refresh frequency for the close-reporting data product from once daily to four times daily, improving timeliness for downstream users and earning two Bravo Zulu awards for business impact.
+ * Enabled governed self-service reporting by connecting Power BI to Azure Databricks and publishing production dashboards to Power BI Service, supporting approximately 60 users with secure access controls aligned to enterprise InfoSec standards.
 
 """
 [[experience]]
@@ -56,9 +59,11 @@ date_format = "Jan 2006"
   description = """
   Achievements:
 
- * Increased guess lead’s productivity by building pipelines to automate data processing and dashboard generation
- * Implemented and managed a Tableau Server used by multiple teams for data storage, EDA, and monthly reporting
- * Boosted query speed by 20% and productivity of a finance team by applying SQL tuning techniques
+ * Engineered production automation workflows in Automation Anywhere to orchestrate data retrieval, processing, and delivery for finance close activities, reducing manual effort and supporting recurring FP&A reporting used by directors and executive leadership.
+ * Developed and supported production ETL processes that moved financial data into downstream reporting layers, enabling dashboards and close reports consumed by analysts and business stakeholders.
+ * Built a cloud-hosted internal reporting application in Dataiku, using Python backend integrations with Oracle and front-end components in HTML/CSS/JavaScript to deliver contract and financial reporting in production.
+ * Integrated AWS S3 with RPA and scripted workflows to replace legacy NAS-based file handling, improving scalability and operational efficiency of data distribution processes.
+ * Recognized with three Bravo Zulu awards for contributions to forecast/reporting automation, close-process RPA, and FP&A reporting enablement.
 
 """
 
@@ -71,6 +76,9 @@ date_format = "Jan 2006"
   date_end = "2019-08-01"
   description = """
   Achievements:
- * Presented recommendations to increase the expense-to-return ratio growth after analyzing $30 million in awards and programming statistical models to evaluate the FedEx Technology Incentive Program's effects on revenue. 
+ * Automated recurring data preparation and reporting workflows using Dataiku and Alteryx, reducing manual effort for FP&A processes and improving productivity for monthly forecasting and close-related reporting.
+ * Administered a production Tableau Server environment supporting multiple teams, including workspace management, role-based access, and dashboard distribution for financial planning and analysis use cases.
+ * Developed and supported Tableau reporting assets used in monthly financial reporting and close processes, while training business users on dashboard access, interpretation, and self-service usage.
+ * Improved query performance by approximately 20% through SQL tuning and optimization, helping accelerate reporting workflows and increase productivity across finance teams.
 """
 +++
