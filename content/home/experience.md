@@ -27,9 +27,7 @@ date_format = "Jan 2006"
   Achievements:
 
  * Joined a collaborative effort to develop a data strategy and architecture with governance and scalability as priority
- * Played critical role in the development of an Azure data-lake which currently facilitates the financial close process
- * Followed DevOps practices to move transport data from Oracle IAAS into a Databrick Azure environment
- * Interfaced AWS S3 with RPA technology to replace NAS drives
+
 
 """
 [[experience]]
